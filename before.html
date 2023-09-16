@@ -1,0 +1,4836 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c59d100f19819b78149b92f521933d3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c59d100f19819b78149b92f521933d3e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c59d100f19819b78149b92f521933d3e = L.map(
+                "map_c59d100f19819b78149b92f521933d3e",
+                {
+                    center: [-6.1755890247863094, 106.82693391775247],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68ddab813b7583cea4d88f924c68ceb6 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+            var marker_c1f34829c7f767b3cf1de5977d7e1658 = L.marker(
+                [-6.1763071, 106.8448212],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0c89791279be5708e3518ee3f0cd2934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f76e4204c4c7b2b73c32747d9361779 = $(`<div id="html_0f76e4204c4c7b2b73c32747d9361779" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_0c89791279be5708e3518ee3f0cd2934.setContent(html_0f76e4204c4c7b2b73c32747d9361779);
+            
+        
+
+        marker_c1f34829c7f767b3cf1de5977d7e1658.bindPopup(popup_0c89791279be5708e3518ee3f0cd2934)
+        ;
+
+        
+    
+    
+            var marker_2b0d410c0d493636c45470db2a7b820a = L.marker(
+                [-6.161971, 106.7698052],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6de59df47822743f01b057ebc419d524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba6474a94b08c29866697ef30e59a172 = $(`<div id="html_ba6474a94b08c29866697ef30e59a172" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_6de59df47822743f01b057ebc419d524.setContent(html_ba6474a94b08c29866697ef30e59a172);
+            
+        
+
+        marker_2b0d410c0d493636c45470db2a7b820a.bindPopup(popup_6de59df47822743f01b057ebc419d524)
+        ;
+
+        
+    
+    
+            var marker_ecde11e737c234debec7d67734624ff0 = L.marker(
+                [-6.1698218, 106.7837097],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_10a473f2e040356da13f71a468d17b96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_109d52ad89ce09e9fcdfeeba0c54538f = $(`<div id="html_109d52ad89ce09e9fcdfeeba0c54538f" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pelita Harapan</div>`)[0];
+                popup_10a473f2e040356da13f71a468d17b96.setContent(html_109d52ad89ce09e9fcdfeeba0c54538f);
+            
+        
+
+        marker_ecde11e737c234debec7d67734624ff0.bindPopup(popup_10a473f2e040356da13f71a468d17b96)
+        ;
+
+        
+    
+    
+            var marker_5ea084c569854dbcb0fe5e1048627777 = L.marker(
+                [-6.1348339, 106.8243935],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6b2738b5e7791f766b2c798a7929fdb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b8e300a7a05b1e39ce27f0aa8dd74b = $(`<div id="html_69b8e300a7a05b1e39ce27f0aa8dd74b" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_6b2738b5e7791f766b2c798a7929fdb1.setContent(html_69b8e300a7a05b1e39ce27f0aa8dd74b);
+            
+        
+
+        marker_5ea084c569854dbcb0fe5e1048627777.bindPopup(popup_6b2738b5e7791f766b2c798a7929fdb1)
+        ;
+
+        
+    
+    
+            var marker_199b727dfbc9b6bdebb6098e0fa2d854 = L.marker(
+                [-6.2854953, 106.8335564],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ef007123358c8865a87a75c32997dc9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed2683db2d0128394e59bedfcb6156ea = $(`<div id="html_ed2683db2d0128394e59bedfcb6156ea" style="width: 100.0%; height: 100.0%;">Dentista</div>`)[0];
+                popup_ef007123358c8865a87a75c32997dc9a.setContent(html_ed2683db2d0128394e59bedfcb6156ea);
+            
+        
+
+        marker_199b727dfbc9b6bdebb6098e0fa2d854.bindPopup(popup_ef007123358c8865a87a75c32997dc9a)
+        ;
+
+        
+    
+    
+            var marker_b700102554a0a9aa7814f8f799924d91 = L.marker(
+                [-6.3365448, 106.8173674],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_181d63c3a0134ca281220dafe583d7d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4710fc3a9aa9fcd59af3eeb17d903a82 = $(`<div id="html_4710fc3a9aa9fcd59af3eeb17d903a82" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_181d63c3a0134ca281220dafe583d7d5.setContent(html_4710fc3a9aa9fcd59af3eeb17d903a82);
+            
+        
+
+        marker_b700102554a0a9aa7814f8f799924d91.bindPopup(popup_181d63c3a0134ca281220dafe583d7d5)
+        ;
+
+        
+    
+    
+            var marker_850c2cf8f582efee4864685da763d1d6 = L.marker(
+                [-6.3469579, 106.8724481],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c0aa90e29a331a44a7c92e881322f0d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44c8892715fb379829eb9b1e9d9cf5e5 = $(`<div id="html_44c8892715fb379829eb9b1e9d9cf5e5" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ketergantungan Obat</div>`)[0];
+                popup_c0aa90e29a331a44a7c92e881322f0d7.setContent(html_44c8892715fb379829eb9b1e9d9cf5e5);
+            
+        
+
+        marker_850c2cf8f582efee4864685da763d1d6.bindPopup(popup_c0aa90e29a331a44a7c92e881322f0d7)
+        ;
+
+        
+    
+    
+            var marker_93e11cfc977324a4af921951d14d84c7 = L.marker(
+                [-6.1716367, 106.8106939],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f7480fea44cc74210d5d74eaaef8781b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00f530c088a02bf62c64aba1e387032 = $(`<div id="html_a00f530c088a02bf62c64aba1e387032" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_f7480fea44cc74210d5d74eaaef8781b.setContent(html_a00f530c088a02bf62c64aba1e387032);
+            
+        
+
+        marker_93e11cfc977324a4af921951d14d84c7.bindPopup(popup_f7480fea44cc74210d5d74eaaef8781b)
+        ;
+
+        
+    
+    
+            var marker_fea40b1f80e0637a356a860aea859e91 = L.marker(
+                [-6.1723055, 106.8106017],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5288faa31551f6aef5cb5028d8f53928 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974d0d0df555cc539cb261d3615b56c8 = $(`<div id="html_974d0d0df555cc539cb261d3615b56c8" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_5288faa31551f6aef5cb5028d8f53928.setContent(html_974d0d0df555cc539cb261d3615b56c8);
+            
+        
+
+        marker_fea40b1f80e0637a356a860aea859e91.bindPopup(popup_5288faa31551f6aef5cb5028d8f53928)
+        ;
+
+        
+    
+    
+            var marker_82cab5dfd08b5d38dbe5aee8dee1d7bd = L.marker(
+                [-6.180435, 106.8181303],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ec511adaee226962de877ea322e971b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f2077c8a9839d1ef7df2296bdd9e0fd = $(`<div id="html_8f2077c8a9839d1ef7df2296bdd9e0fd" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_ec511adaee226962de877ea322e971b0.setContent(html_8f2077c8a9839d1ef7df2296bdd9e0fd);
+            
+        
+
+        marker_82cab5dfd08b5d38dbe5aee8dee1d7bd.bindPopup(popup_ec511adaee226962de877ea322e971b0)
+        ;
+
+        
+    
+    
+            var marker_b17e442c2c135855feac06b87556ca08 = L.marker(
+                [-6.206253, 106.8486027],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_34d5269900fef27b6ee8cf292b3a5080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f92a488fabb6dc5a2cc2b11310e16ffc = $(`<div id="html_f92a488fabb6dc5a2cc2b11310e16ffc" style="width: 100.0%; height: 100.0%;">RSIA Tambak</div>`)[0];
+                popup_34d5269900fef27b6ee8cf292b3a5080.setContent(html_f92a488fabb6dc5a2cc2b11310e16ffc);
+            
+        
+
+        marker_b17e442c2c135855feac06b87556ca08.bindPopup(popup_34d5269900fef27b6ee8cf292b3a5080)
+        ;
+
+        
+    
+    
+            var marker_b9fbc0895fd3aff3de249fa836079dcc = L.marker(
+                [-6.1155534, 106.7807682],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_8d1b55204fe49ac712da992136cb95c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18777d75b2dea0e502d8ca3c63df343d = $(`<div id="html_18777d75b2dea0e502d8ca3c63df343d" style="width: 100.0%; height: 100.0%;">apotik & Lab Muara Karang</div>`)[0];
+                popup_8d1b55204fe49ac712da992136cb95c7.setContent(html_18777d75b2dea0e502d8ca3c63df343d);
+            
+        
+
+        marker_b9fbc0895fd3aff3de249fa836079dcc.bindPopup(popup_8d1b55204fe49ac712da992136cb95c7)
+        ;
+
+        
+    
+    
+            var marker_7e1dbbfc33baf2bf2cdbb604368500a4 = L.marker(
+                [-6.1247726, 106.7111509],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d3127a51a2194613808d0de097c1edaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_279459d9008bc58ddcfa6eec965d6c16 = $(`<div id="html_279459d9008bc58ddcfa6eec965d6c16" style="width: 100.0%; height: 100.0%;">GETHealthy Clinic</div>`)[0];
+                popup_d3127a51a2194613808d0de097c1edaa.setContent(html_279459d9008bc58ddcfa6eec965d6c16);
+            
+        
+
+        marker_7e1dbbfc33baf2bf2cdbb604368500a4.bindPopup(popup_d3127a51a2194613808d0de097c1edaa)
+        ;
+
+        
+    
+    
+            var marker_c1a6745f407da36ca4e589f110fe6a40 = L.marker(
+                [-6.1604025, 106.7960691],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2046e4e4e4c10cc0189a166c4ec259e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9fbe43cccd70b2c0c79c8f4dba44cb2 = $(`<div id="html_d9fbe43cccd70b2c0c79c8f4dba44cb2" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Ibnu Sina</div>`)[0];
+                popup_2046e4e4e4c10cc0189a166c4ec259e0.setContent(html_d9fbe43cccd70b2c0c79c8f4dba44cb2);
+            
+        
+
+        marker_c1a6745f407da36ca4e589f110fe6a40.bindPopup(popup_2046e4e4e4c10cc0189a166c4ec259e0)
+        ;
+
+        
+    
+    
+            var marker_afbed0e97706159d54a4ab12648a1fe5 = L.marker(
+                [-6.2078757, 106.8675387],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cbe9f15fe19832cb5aaee633d633b028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c8145b3d11c5edef184ba447a23208 = $(`<div id="html_57c8145b3d11c5edef184ba447a23208" style="width: 100.0%; height: 100.0%;">Klinik SouthernUK</div>`)[0];
+                popup_cbe9f15fe19832cb5aaee633d633b028.setContent(html_57c8145b3d11c5edef184ba447a23208);
+            
+        
+
+        marker_afbed0e97706159d54a4ab12648a1fe5.bindPopup(popup_cbe9f15fe19832cb5aaee633d633b028)
+        ;
+
+        
+    
+    
+            var marker_a6c03e135ff120c5c983c6e36ffb4105 = L.marker(
+                [-6.1823419, 106.8442225],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_558b788bbc4c58227a1c94a3efd69d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff12ca827cafcc61033294a5477a8f80 = $(`<div id="html_ff12ca827cafcc61033294a5477a8f80" style="width: 100.0%; height: 100.0%;">Puskesmas Kecamatan Senen Kramat Baru</div>`)[0];
+                popup_558b788bbc4c58227a1c94a3efd69d38.setContent(html_ff12ca827cafcc61033294a5477a8f80);
+            
+        
+
+        marker_a6c03e135ff120c5c983c6e36ffb4105.bindPopup(popup_558b788bbc4c58227a1c94a3efd69d38)
+        ;
+
+        
+    
+    
+            var marker_ab48480312b070bfde852a621bf8eb1d = L.marker(
+                [-6.2282877, 106.8554624],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_75267ba1f76078dccbc8e84f996d3743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fef4f84b2ca3e645b669f9e012c14070 = $(`<div id="html_fef4f84b2ca3e645b669f9e012c14070" style="width: 100.0%; height: 100.0%;">Ocean Dental Tebet</div>`)[0];
+                popup_75267ba1f76078dccbc8e84f996d3743.setContent(html_fef4f84b2ca3e645b669f9e012c14070);
+            
+        
+
+        marker_ab48480312b070bfde852a621bf8eb1d.bindPopup(popup_75267ba1f76078dccbc8e84f996d3743)
+        ;
+
+        
+    
+    
+            var marker_2ac47dd5cccb4d3db11bd1740fdf783b = L.marker(
+                [-6.112074899999998, 106.88199405],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_225ae553b0eeca57f05b5c04cf343148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec36165be5b3d188061bddca3b72f1a0 = $(`<div id="html_ec36165be5b3d188061bddca3b72f1a0" style="width: 100.0%; height: 100.0%;">RS Sukmul Sisma Medika</div>`)[0];
+                popup_225ae553b0eeca57f05b5c04cf343148.setContent(html_ec36165be5b3d188061bddca3b72f1a0);
+            
+        
+
+        marker_2ac47dd5cccb4d3db11bd1740fdf783b.bindPopup(popup_225ae553b0eeca57f05b5c04cf343148)
+        ;
+
+        
+    
+    
+            var marker_f27b5ef1d2e7bf0bd9f91cb55e3cee92 = L.marker(
+                [-6.307496548270213, 106.8588934041955],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_66d46cc9830ab36acedb9f328cf7b971 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55797ca30f669dceddba530935a2f3cc = $(`<div id="html_55797ca30f669dceddba530935a2f3cc" style="width: 100.0%; height: 100.0%;">Rumah Sakit Cijantung</div>`)[0];
+                popup_66d46cc9830ab36acedb9f328cf7b971.setContent(html_55797ca30f669dceddba530935a2f3cc);
+            
+        
+
+        marker_f27b5ef1d2e7bf0bd9f91cb55e3cee92.bindPopup(popup_66d46cc9830ab36acedb9f328cf7b971)
+        ;
+
+        
+    
+    
+            var marker_13f83c42069211ba86fa2c65d94ed9d5 = L.marker(
+                [-6.2481264200237865, 106.90952280005232],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f1b86e50130d3befd93bb3945c07c46e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0a4ed9b0f28c6dd1bbf56aa36ea7dd = $(`<div id="html_6f0a4ed9b0f28c6dd1bbf56aa36ea7dd" style="width: 100.0%; height: 100.0%;">Rumah Sakit Harum Sisma Medika</div>`)[0];
+                popup_f1b86e50130d3befd93bb3945c07c46e.setContent(html_6f0a4ed9b0f28c6dd1bbf56aa36ea7dd);
+            
+        
+
+        marker_13f83c42069211ba86fa2c65d94ed9d5.bindPopup(popup_f1b86e50130d3befd93bb3945c07c46e)
+        ;
+
+        
+    
+    
+            var marker_5c6261e03183544df199b2d34001da3e = L.marker(
+                [-6.2306520999999995, 106.86697609999999],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_be7d058eb1754fe232a065ad04b491b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_639c7cbf084fad6f3513400637e2f520 = $(`<div id="html_639c7cbf084fad6f3513400637e2f520" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bersalin Bidara Mulia</div>`)[0];
+                popup_be7d058eb1754fe232a065ad04b491b7.setContent(html_639c7cbf084fad6f3513400637e2f520);
+            
+        
+
+        marker_5c6261e03183544df199b2d34001da3e.bindPopup(popup_be7d058eb1754fe232a065ad04b491b7)
+        ;
+
+        
+    
+    
+            var marker_eaba782ab1192a2206acb2203b0264af = L.marker(
+                [-6.198110689757922, 106.85171290788506],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5dc513f7564a6f1ce9c017a6cb215281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d30dda5d4543372fcc74be0424c8e4ff = $(`<div id="html_d30dda5d4543372fcc74be0424c8e4ff" style="width: 100.0%; height: 100.0%;">RSKB Medika</div>`)[0];
+                popup_5dc513f7564a6f1ce9c017a6cb215281.setContent(html_d30dda5d4543372fcc74be0424c8e4ff);
+            
+        
+
+        marker_eaba782ab1192a2206acb2203b0264af.bindPopup(popup_5dc513f7564a6f1ce9c017a6cb215281)
+        ;
+
+        
+    
+    
+            var marker_914eefa6b7e22d4bf7280a8e9cee4231 = L.marker(
+                [-6.214379254084503, 106.82856310551175],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cd68f6bd8e09e090ab6d2ba59a5def69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b812f395a371edb36d3a8215a9f899 = $(`<div id="html_69b812f395a371edb36d3a8215a9f899" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mata Aini</div>`)[0];
+                popup_cd68f6bd8e09e090ab6d2ba59a5def69.setContent(html_69b812f395a371edb36d3a8215a9f899);
+            
+        
+
+        marker_914eefa6b7e22d4bf7280a8e9cee4231.bindPopup(popup_cd68f6bd8e09e090ab6d2ba59a5def69)
+        ;
+
+        
+    
+    
+            var marker_8396d035e6213f15dbddd112032c1f76 = L.marker(
+                [-6.219922140865757, 106.83241342453115],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_79c6efabcb513256b16ae5c15307d97d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9239db11c088167a5dd3b156f8f776d4 = $(`<div id="html_9239db11c088167a5dd3b156f8f776d4" style="width: 100.0%; height: 100.0%;">Rumah Sakit MMC</div>`)[0];
+                popup_79c6efabcb513256b16ae5c15307d97d.setContent(html_9239db11c088167a5dd3b156f8f776d4);
+            
+        
+
+        marker_8396d035e6213f15dbddd112032c1f76.bindPopup(popup_79c6efabcb513256b16ae5c15307d97d)
+        ;
+
+        
+    
+    
+            var marker_89b13b02f24f6de08a1f9a39ed8105b4 = L.marker(
+                [-6.2508229260087385, 106.87221108500661],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ade19f8492c1c11986cfd08feb0d8ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ff0a85b8b92383bf24e5b7862f3654 = $(`<div id="html_99ff0a85b8b92383bf24e5b7862f3654" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum UKI</div>`)[0];
+                popup_ade19f8492c1c11986cfd08feb0d8ca7.setContent(html_99ff0a85b8b92383bf24e5b7862f3654);
+            
+        
+
+        marker_89b13b02f24f6de08a1f9a39ed8105b4.bindPopup(popup_ade19f8492c1c11986cfd08feb0d8ca7)
+        ;
+
+        
+    
+    
+            var marker_1ee20a5ee85991a492baed56bea66a9c = L.marker(
+                [-6.299132335980012, 106.81965891779693],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9516033a0cf50afc233c28c87040a535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1badaa9436bffa448a5a1c3ccead1a5c = $(`<div id="html_1badaa9436bffa448a5a1c3ccead1a5c" style="width: 100.0%; height: 100.0%;">Rumah Sakit Hewan Jakarta</div>`)[0];
+                popup_9516033a0cf50afc233c28c87040a535.setContent(html_1badaa9436bffa448a5a1c3ccead1a5c);
+            
+        
+
+        marker_1ee20a5ee85991a492baed56bea66a9c.bindPopup(popup_9516033a0cf50afc233c28c87040a535)
+        ;
+
+        
+    
+    
+            var marker_7460428c6f7cfa3a91d62ffddb5e9ff9 = L.marker(
+                [-6.189269450000001, 106.84533654999998],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_594f5e01e5a0b1ed8df5d494c58f4681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca8be9548702fc165da01df5fbc14a6f = $(`<div id="html_ca8be9548702fc165da01df5fbc14a6f" style="width: 100.0%; height: 100.0%;">Raden Saleh Medical Center</div>`)[0];
+                popup_594f5e01e5a0b1ed8df5d494c58f4681.setContent(html_ca8be9548702fc165da01df5fbc14a6f);
+            
+        
+
+        marker_7460428c6f7cfa3a91d62ffddb5e9ff9.bindPopup(popup_594f5e01e5a0b1ed8df5d494c58f4681)
+        ;
+
+        
+    
+    
+            var marker_e866173409ba153b85e9913699cad202 = L.marker(
+                [-6.2215123667136245, 106.91479159584608],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_91c254239d9b7cff974484142f947b7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d10f0e2cb68635f4df580a5a542581f = $(`<div id="html_9d10f0e2cb68635f4df580a5a542581f" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Asta Nugraha</div>`)[0];
+                popup_91c254239d9b7cff974484142f947b7f.setContent(html_9d10f0e2cb68635f4df580a5a542581f);
+            
+        
+
+        marker_e866173409ba153b85e9913699cad202.bindPopup(popup_91c254239d9b7cff974484142f947b7f)
+        ;
+
+        
+    
+    
+            var marker_377eb287c04b9eb5e0d942f07fb5926f = L.marker(
+                [-6.209462833804119, 106.81951584461873],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_efb1aa16f50cce776ea67e3151f908bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2e1a1be941fdd439ebc2f973b20694 = $(`<div id="html_4d2e1a1be941fdd439ebc2f973b20694" style="width: 100.0%; height: 100.0%;">RS Murni Teguh Sudirman Jakarta</div>`)[0];
+                popup_efb1aa16f50cce776ea67e3151f908bb.setContent(html_4d2e1a1be941fdd439ebc2f973b20694);
+            
+        
+
+        marker_377eb287c04b9eb5e0d942f07fb5926f.bindPopup(popup_efb1aa16f50cce776ea67e3151f908bb)
+        ;
+
+        
+    
+    
+            var marker_24e15a42d45b01835a406258c794def2 = L.marker(
+                [-6.218549434332048, 106.81635148602507],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3040c392042fbdb797362beb65f3b56c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69604ab3841f736b9c7b5b55e57c3074 = $(`<div id="html_69604ab3841f736b9c7b5b55e57c3074" style="width: 100.0%; height: 100.0%;">Rumah Sakit Jakarta</div>`)[0];
+                popup_3040c392042fbdb797362beb65f3b56c.setContent(html_69604ab3841f736b9c7b5b55e57c3074);
+            
+        
+
+        marker_24e15a42d45b01835a406258c794def2.bindPopup(popup_3040c392042fbdb797362beb65f3b56c)
+        ;
+
+        
+    
+    
+            var marker_2f3e59dc5677d7ed88f00fe683cfb623 = L.marker(
+                [-6.303621686083854, 106.86212951244558],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_990d6f5a60d422e88b6b7c743edc0bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bb2168909b7bd2d3a1015e4d6549e00 = $(`<div id="html_1bb2168909b7bd2d3a1015e4d6549e00" style="width: 100.0%; height: 100.0%;">RSUD Pasar Rebo</div>`)[0];
+                popup_990d6f5a60d422e88b6b7c743edc0bea.setContent(html_1bb2168909b7bd2d3a1015e4d6549e00);
+            
+        
+
+        marker_2f3e59dc5677d7ed88f00fe683cfb623.bindPopup(popup_990d6f5a60d422e88b6b7c743edc0bea)
+        ;
+
+        
+    
+    
+            var marker_b9c159ecd5d84fad035ae5256bf58fc8 = L.marker(
+                [-6.204302170813656, 106.88453547537722],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1ae9515f7c8a2ad795fdc6d25cbfee03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb5b07d5cbb30c403f34833a1ee94a2d = $(`<div id="html_eb5b07d5cbb30c403f34833a1ee94a2d" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Persahabatan</div>`)[0];
+                popup_1ae9515f7c8a2ad795fdc6d25cbfee03.setContent(html_eb5b07d5cbb30c403f34833a1ee94a2d);
+            
+        
+
+        marker_b9c159ecd5d84fad035ae5256bf58fc8.bindPopup(popup_1ae9515f7c8a2ad795fdc6d25cbfee03)
+        ;
+
+        
+    
+    
+            var marker_f5c4270ff5f240814435579dc3bf86e2 = L.marker(
+                [-6.157289620858189, 106.84141625512322],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9e15ef6b7d402fa00030b16726cc3be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21237751277c22a74672d244ce530d81 = $(`<div id="html_21237751277c22a74672d244ce530d81" style="width: 100.0%; height: 100.0%;">Garuda Sentra Medika</div>`)[0];
+                popup_9e15ef6b7d402fa00030b16726cc3be6.setContent(html_21237751277c22a74672d244ce530d81);
+            
+        
+
+        marker_f5c4270ff5f240814435579dc3bf86e2.bindPopup(popup_9e15ef6b7d402fa00030b16726cc3be6)
+        ;
+
+        
+    
+    
+            var marker_6046ddb4f96eff90431dfd3f7e006333 = L.marker(
+                [-6.125736075004627, 106.79948634138997],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6066aeab5f374f8c5417edd867744f39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e628414921977732893fe0c3b2391b38 = $(`<div id="html_e628414921977732893fe0c3b2391b38" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pluit</div>`)[0];
+                popup_6066aeab5f374f8c5417edd867744f39.setContent(html_e628414921977732893fe0c3b2391b38);
+            
+        
+
+        marker_6046ddb4f96eff90431dfd3f7e006333.bindPopup(popup_6066aeab5f374f8c5417edd867744f39)
+        ;
+
+        
+    
+    
+            var marker_4d6da7b037534ae1ee07d031fa8f4a09 = L.marker(
+                [-6.166166033899509, 106.91605081518668],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_99d74f0b77e20d7d320943f2a52b086d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_454e54a9d938006770569448c2e59549 = $(`<div id="html_454e54a9d938006770569448c2e59549" style="width: 100.0%; height: 100.0%;">RS Gading Pluit</div>`)[0];
+                popup_99d74f0b77e20d7d320943f2a52b086d.setContent(html_454e54a9d938006770569448c2e59549);
+            
+        
+
+        marker_4d6da7b037534ae1ee07d031fa8f4a09.bindPopup(popup_99d74f0b77e20d7d320943f2a52b086d)
+        ;
+
+        
+    
+    
+            var marker_c5319aa9ddc4d3b6869d86af9ce7083c = L.marker(
+                [-6.19365430520643, 106.85209264050732],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2fd93b5b0870f840330c7f61fbf883d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66bc0bf1125ca2a4826785d8775db56 = $(`<div id="html_d66bc0bf1125ca2a4826785d8775db56" style="width: 100.0%; height: 100.0%;">Rumah Sakit Radjak Salemba</div>`)[0];
+                popup_2fd93b5b0870f840330c7f61fbf883d4.setContent(html_d66bc0bf1125ca2a4826785d8775db56);
+            
+        
+
+        marker_c5319aa9ddc4d3b6869d86af9ce7083c.bindPopup(popup_2fd93b5b0870f840330c7f61fbf883d4)
+        ;
+
+        
+    
+    
+            var marker_7b075dd9d2c098e8a8fbb95f44d54182 = L.marker(
+                [-6.148900700000001, 106.82982100000001],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_904923cd59d35db56d44dd16af3ae0eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94118002350946ea7a2c0c2b7f6a863f = $(`<div id="html_94118002350946ea7a2c0c2b7f6a863f" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kecamatan Sawah Besar</div>`)[0];
+                popup_904923cd59d35db56d44dd16af3ae0eb.setContent(html_94118002350946ea7a2c0c2b7f6a863f);
+            
+        
+
+        marker_7b075dd9d2c098e8a8fbb95f44d54182.bindPopup(popup_904923cd59d35db56d44dd16af3ae0eb)
+        ;
+
+        
+    
+    
+            var marker_26464bb583d6f934b2bd87eb42a27ea8 = L.marker(
+                [-6.201921569372935, 106.84725906860601],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a44776118f5ff7c045c2eef341dd93d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b797fe84f21f4779d982b1fde99afc08 = $(`<div id="html_b797fe84f21f4779d982b1fde99afc08" style="width: 100.0%; height: 100.0%;">Rumah Sakit Khusus THT dan Bedah Kepala Leher Proklamasi</div>`)[0];
+                popup_a44776118f5ff7c045c2eef341dd93d0.setContent(html_b797fe84f21f4779d982b1fde99afc08);
+            
+        
+
+        marker_26464bb583d6f934b2bd87eb42a27ea8.bindPopup(popup_a44776118f5ff7c045c2eef341dd93d0)
+        ;
+
+        
+    
+    
+            var marker_b47f0f5b13c5fb39a2096edee89f61f0 = L.marker(
+                [-6.1935369487752485, 106.85976326317288],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ac16711f25d997b87f21a65daa27b826 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_124de5300abbdd2dc2868552382a5a8c = $(`<div id="html_124de5300abbdd2dc2868552382a5a8c" style="width: 100.0%; height: 100.0%;">Evasari Rumah Sakit Awal BROS Group</div>`)[0];
+                popup_ac16711f25d997b87f21a65daa27b826.setContent(html_124de5300abbdd2dc2868552382a5a8c);
+            
+        
+
+        marker_b47f0f5b13c5fb39a2096edee89f61f0.bindPopup(popup_ac16711f25d997b87f21a65daa27b826)
+        ;
+
+        
+    
+    
+            var marker_6db24fd4378970b69eca94f5e1e0fbed = L.marker(
+                [-6.184667462358284, 106.87240737543434],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_426c3e5c52838252c41ad6629913e5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3854595cc2f33f6cca8f4f85aef3992c = $(`<div id="html_3854595cc2f33f6cca8f4f85aef3992c" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kecamatan Cempaka Putih</div>`)[0];
+                popup_426c3e5c52838252c41ad6629913e5c7.setContent(html_3854595cc2f33f6cca8f4f85aef3992c);
+            
+        
+
+        marker_6db24fd4378970b69eca94f5e1e0fbed.bindPopup(popup_426c3e5c52838252c41ad6629913e5c7)
+        ;
+
+        
+    
+    
+            var marker_b65e929a4f23ad070b9342ff7580537f = L.marker(
+                [-6.180517877368109, 106.8182448387684],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b96eeceb96221f67c244381a5a3b8787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca3897a2cb895a4be115e1cfaa93b4e0 = $(`<div id="html_ca3897a2cb895a4be115e1cfaa93b4e0" style="width: 100.0%; height: 100.0%;">Lembaga Kesehatan Budi Kemuliaan</div>`)[0];
+                popup_b96eeceb96221f67c244381a5a3b8787.setContent(html_ca3897a2cb895a4be115e1cfaa93b4e0);
+            
+        
+
+        marker_b65e929a4f23ad070b9342ff7580537f.bindPopup(popup_b96eeceb96221f67c244381a5a3b8787)
+        ;
+
+        
+    
+    
+            var marker_3a118164f919d217607b9070459ab1ba = L.marker(
+                [-6.211426021160307, 106.80865854236013],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_00a3897e948351b1c21c828c45317afe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d950c59cbc7c50bb150518b4c5e91bfb = $(`<div id="html_d950c59cbc7c50bb150518b4c5e91bfb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Gigi dan Mulut Ladokgi TNI AL R.E Martadinata</div>`)[0];
+                popup_00a3897e948351b1c21c828c45317afe.setContent(html_d950c59cbc7c50bb150518b4c5e91bfb);
+            
+        
+
+        marker_3a118164f919d217607b9070459ab1ba.bindPopup(popup_00a3897e948351b1c21c828c45317afe)
+        ;
+
+        
+    
+    
+            var marker_df01585d9e9aa9482871219783244217 = L.marker(
+                [-6.210904295680572, 106.81092493183793],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c6c4e334e8d571456d5c6e09cc839a68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d77aec0c225bc3a883486b15504fa787 = $(`<div id="html_d77aec0c225bc3a883486b15504fa787" style="width: 100.0%; height: 100.0%;">Rumah Sakit Dr Mintohardjo</div>`)[0];
+                popup_c6c4e334e8d571456d5c6e09cc839a68.setContent(html_d77aec0c225bc3a883486b15504fa787);
+            
+        
+
+        marker_df01585d9e9aa9482871219783244217.bindPopup(popup_c6c4e334e8d571456d5c6e09cc839a68)
+        ;
+
+        
+    
+    
+            var marker_e9888eac902c5ad1bfdef1251c526eb5 = L.marker(
+                [-6.221651033641352, 106.86882249961131],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_950d1986f1dbe1f096c2d3fbcd9f31f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f95aa3139ba1b85a174c72cf65bd4f = $(`<div id="html_d4f95aa3139ba1b85a174c72cf65bd4f" style="width: 100.0%; height: 100.0%;">RS Premier Jatinegara</div>`)[0];
+                popup_950d1986f1dbe1f096c2d3fbcd9f31f2.setContent(html_d4f95aa3139ba1b85a174c72cf65bd4f);
+            
+        
+
+        marker_e9888eac902c5ad1bfdef1251c526eb5.bindPopup(popup_950d1986f1dbe1f096c2d3fbcd9f31f2)
+        ;
+
+        
+    
+    
+            var marker_a1fb1e74e310ca97d5bec2b0dd4da773 = L.marker(
+                [-6.307848820442391, 106.8927316068226],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_55d63285c3243cd6f035ee21bf9292d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be39da5db3457b5a9556ef9a06baf11 = $(`<div id="html_3be39da5db3457b5a9556ef9a06baf11" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Adhyaksa</div>`)[0];
+                popup_55d63285c3243cd6f035ee21bf9292d7.setContent(html_3be39da5db3457b5a9556ef9a06baf11);
+            
+        
+
+        marker_a1fb1e74e310ca97d5bec2b0dd4da773.bindPopup(popup_55d63285c3243cd6f035ee21bf9292d7)
+        ;
+
+        
+    
+    
+            var marker_f57937425ba34e0c88d651139410f634 = L.marker(
+                [-6.180357240445069, 106.88389830259247],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_4e5e41ea82433a2cb3a325bb3a5176ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d7c02330b3eed67dc2527fe097466bc = $(`<div id="html_5d7c02330b3eed67dc2527fe097466bc" style="width: 100.0%; height: 100.0%;">Rumah Sakit Omni</div>`)[0];
+                popup_4e5e41ea82433a2cb3a325bb3a5176ba.setContent(html_5d7c02330b3eed67dc2527fe097466bc);
+            
+        
+
+        marker_f57937425ba34e0c88d651139410f634.bindPopup(popup_4e5e41ea82433a2cb3a325bb3a5176ba)
+        ;
+
+        
+    
+    
+            var marker_cd78d27db974059bf1757996afb6eba0 = L.marker(
+                [-6.175962050000001, 106.88490600000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0669b1e2186fa90edd41c73586dad14e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93424dad1f11ca014dc9e12d9df2cd57 = $(`<div id="html_93424dad1f11ca014dc9e12d9df2cd57" style="width: 100.0%; height: 100.0%;">Rumah Sakit Kartika Pulo Mas</div>`)[0];
+                popup_0669b1e2186fa90edd41c73586dad14e.setContent(html_93424dad1f11ca014dc9e12d9df2cd57);
+            
+        
+
+        marker_cd78d27db974059bf1757996afb6eba0.bindPopup(popup_0669b1e2186fa90edd41c73586dad14e)
+        ;
+
+        
+    
+    
+            var marker_25280a1ff3d2e137abde475996520ed4 = L.marker(
+                [-6.221891224750931, 106.93307509545377],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f029714f062a31dda9c55ef4c444edeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9993114b010834d2f132a6f042077ca4 = $(`<div id="html_9993114b010834d2f132a6f042077ca4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Islam Jiwa Jakarta</div>`)[0];
+                popup_f029714f062a31dda9c55ef4c444edeb.setContent(html_9993114b010834d2f132a6f042077ca4);
+            
+        
+
+        marker_25280a1ff3d2e137abde475996520ed4.bindPopup(popup_f029714f062a31dda9c55ef4c444edeb)
+        ;
+
+        
+    
+    
+            var marker_60fdb2f66b738f0d4bb15c9bdc2fa073 = L.marker(
+                [-6.265089099999998, 106.8664545],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a77a5d989c717e2a3997a6b816c529f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b605b6b8176a42f002775b12287f8c25 = $(`<div id="html_b605b6b8176a42f002775b12287f8c25" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Restu Kasih</div>`)[0];
+                popup_a77a5d989c717e2a3997a6b816c529f4.setContent(html_b605b6b8176a42f002775b12287f8c25);
+            
+        
+
+        marker_60fdb2f66b738f0d4bb15c9bdc2fa073.bindPopup(popup_a77a5d989c717e2a3997a6b816c529f4)
+        ;
+
+        
+    
+    
+            var marker_77d3867bec0aad4e0bfac14deeb8829a = L.marker(
+                [-6.231139342335915, 106.90860192445416],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1f0761eb78b27e2374b060c587845cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8232cced22eb92a2c03e80f874b2779b = $(`<div id="html_8232cced22eb92a2c03e80f874b2779b" style="width: 100.0%; height: 100.0%;">RSUD Duren Sawit : Instalasi Kedaruratan Emosi dan Perilaku</div>`)[0];
+                popup_1f0761eb78b27e2374b060c587845cc6.setContent(html_8232cced22eb92a2c03e80f874b2779b);
+            
+        
+
+        marker_77d3867bec0aad4e0bfac14deeb8829a.bindPopup(popup_1f0761eb78b27e2374b060c587845cc6)
+        ;
+
+        
+    
+    
+            var marker_02d35aa177619ea36d29446d8fe700bd = L.marker(
+                [-6.160400483197192, 106.79607274922087],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6d9e2718e477e335c5404e7059fe4a1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9230f55dad3eb6802d7e3c1182571cf5 = $(`<div id="html_9230f55dad3eb6802d7e3c1182571cf5" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Ibnu Sina</div>`)[0];
+                popup_6d9e2718e477e335c5404e7059fe4a1e.setContent(html_9230f55dad3eb6802d7e3c1182571cf5);
+            
+        
+
+        marker_02d35aa177619ea36d29446d8fe700bd.bindPopup(popup_6d9e2718e477e335c5404e7059fe4a1e)
+        ;
+
+        
+    
+    
+            var marker_83d8f196786e13f50d3efee8f6b86cda = L.marker(
+                [-6.143741513113431, 106.81922481917813],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_18ae7d48e265e9475c499c87a359d9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0bd571b9174801d13a378b00c444e78 = $(`<div id="html_d0bd571b9174801d13a378b00c444e78" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Taman Sari</div>`)[0];
+                popup_18ae7d48e265e9475c499c87a359d9c8.setContent(html_d0bd571b9174801d13a378b00c444e78);
+            
+        
+
+        marker_83d8f196786e13f50d3efee8f6b86cda.bindPopup(popup_18ae7d48e265e9475c499c87a359d9c8)
+        ;
+
+        
+    
+    
+            var marker_03ff89d708971dfa376d2c9a664d6e51 = L.marker(
+                [-6.197315763144996, 106.79264884664049],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c09552b191ebae3374887beb2dbbfaff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c78c76b8435f12d61cea29be83b763c = $(`<div id="html_2c78c76b8435f12d61cea29be83b763c" style="width: 100.0%; height: 100.0%;">RS Patria IKKT</div>`)[0];
+                popup_c09552b191ebae3374887beb2dbbfaff.setContent(html_2c78c76b8435f12d61cea29be83b763c);
+            
+        
+
+        marker_03ff89d708971dfa376d2c9a664d6e51.bindPopup(popup_c09552b191ebae3374887beb2dbbfaff)
+        ;
+
+        
+    
+    
+            var marker_b83bec42646a9e6ae6c21dc493608ae2 = L.marker(
+                [-6.15763215, 106.80999889999998],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_05c7b2819f32eba9b9707a6d5c803dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5e1517ec6f2f2bb19db3b22c0e05ad1 = $(`<div id="html_a5e1517ec6f2f2bb19db3b22c0e05ad1" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Aries</div>`)[0];
+                popup_05c7b2819f32eba9b9707a6d5c803dc3.setContent(html_a5e1517ec6f2f2bb19db3b22c0e05ad1);
+            
+        
+
+        marker_b83bec42646a9e6ae6c21dc493608ae2.bindPopup(popup_05c7b2819f32eba9b9707a6d5c803dc3)
+        ;
+
+        
+    
+    
+            var marker_3ac26a1390f486dd6ea8d97d955412d4 = L.marker(
+                [-6.193198538735023, 106.80367554167296],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_55f19ba2df264e10be3ae1ee14b78277 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc0633e285f832bb027ea1a3aea7294a = $(`<div id="html_dc0633e285f832bb027ea1a3aea7294a" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pelni Petamburan</div>`)[0];
+                popup_55f19ba2df264e10be3ae1ee14b78277.setContent(html_dc0633e285f832bb027ea1a3aea7294a);
+            
+        
+
+        marker_3ac26a1390f486dd6ea8d97d955412d4.bindPopup(popup_55f19ba2df264e10be3ae1ee14b78277)
+        ;
+
+        
+    
+    
+            var marker_d4d75a92c141ef1622b21b4c2afecf1f = L.marker(
+                [-6.199578652594669, 106.80054592404132],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b17641926c074ae5c3f34d753c8f7994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aed3bfd0b65e4c0ab874bff838ede98 = $(`<div id="html_6aed3bfd0b65e4c0ab874bff838ede98" style="width: 100.0%; height: 100.0%;">RS Bhakti Mulia</div>`)[0];
+                popup_b17641926c074ae5c3f34d753c8f7994.setContent(html_6aed3bfd0b65e4c0ab874bff838ede98);
+            
+        
+
+        marker_d4d75a92c141ef1622b21b4c2afecf1f.bindPopup(popup_b17641926c074ae5c3f34d753c8f7994)
+        ;
+
+        
+    
+    
+            var marker_ea2edd7a713b3cf59b0e461fa0c26e6e = L.marker(
+                [-6.202994724550815, 106.77314624544204],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_fb3158b1546231ea90ede527f7eb0b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49ed91a4ea1e4513f4502c05fc123063 = $(`<div id="html_49ed91a4ea1e4513f4502c05fc123063" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bersalin Dokter Sanusi</div>`)[0];
+                popup_fb3158b1546231ea90ede527f7eb0b21.setContent(html_49ed91a4ea1e4513f4502c05fc123063);
+            
+        
+
+        marker_ea2edd7a713b3cf59b0e461fa0c26e6e.bindPopup(popup_fb3158b1546231ea90ede527f7eb0b21)
+        ;
+
+        
+    
+    
+            var marker_f2ceecadbca3ff0528bbdcb86636a547 = L.marker(
+                [-6.208757049399881, 106.94178096274301],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_62a84c90f4eeef9434214f2ca9a747d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51243773f0d88d890094304d1275b50 = $(`<div id="html_f51243773f0d88d890094304d1275b50" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Resti Mulya</div>`)[0];
+                popup_62a84c90f4eeef9434214f2ca9a747d7.setContent(html_f51243773f0d88d890094304d1275b50);
+            
+        
+
+        marker_f2ceecadbca3ff0528bbdcb86636a547.bindPopup(popup_62a84c90f4eeef9434214f2ca9a747d7)
+        ;
+
+        
+    
+    
+            var marker_4d3460cfce2bc652f52ea91b353b1207 = L.marker(
+                [-6.240496292307887, 106.8270125795569],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_640aeb08d85278f7f29aca7d6f913461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46aa28c419737834b07d952251199cf7 = $(`<div id="html_46aa28c419737834b07d952251199cf7" style="width: 100.0%; height: 100.0%;">RSUD Mampang Prapatan</div>`)[0];
+                popup_640aeb08d85278f7f29aca7d6f913461.setContent(html_46aa28c419737834b07d952251199cf7);
+            
+        
+
+        marker_4d3460cfce2bc652f52ea91b353b1207.bindPopup(popup_640aeb08d85278f7f29aca7d6f913461)
+        ;
+
+        
+    
+    
+            var marker_332ec6667e144ceefba28f42805a4784 = L.marker(
+                [-6.248652327234039, 106.78560234376951],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e9ed4a9d03f6b9e124d4b1fba1a05d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_396ca907f57374d8e9fdf169d1e13545 = $(`<div id="html_396ca907f57374d8e9fdf169d1e13545" style="width: 100.0%; height: 100.0%;">RSUD Kebayoran Lama</div>`)[0];
+                popup_e9ed4a9d03f6b9e124d4b1fba1a05d08.setContent(html_396ca907f57374d8e9fdf169d1e13545);
+            
+        
+
+        marker_332ec6667e144ceefba28f42805a4784.bindPopup(popup_e9ed4a9d03f6b9e124d4b1fba1a05d08)
+        ;
+
+        
+    
+    
+            var marker_d30d7a2d76975fa282b0a2b9d4f2e482 = L.marker(
+                [-6.206209720359019, 106.83407633422848],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d970f26fb86ca9040660e9080db44bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0ebcede00add302e081816866084bd = $(`<div id="html_ee0ebcede00add302e081816866084bd" style="width: 100.0%; height: 100.0%;">Rumah Sakit Khusus Bedah Halimun</div>`)[0];
+                popup_d970f26fb86ca9040660e9080db44bb8.setContent(html_ee0ebcede00add302e081816866084bd);
+            
+        
+
+        marker_d30d7a2d76975fa282b0a2b9d4f2e482.bindPopup(popup_d970f26fb86ca9040660e9080db44bb8)
+        ;
+
+        
+    
+    
+            var marker_0f5a78a19be952fb19ff414fbf6bdf47 = L.marker(
+                [-6.210329692223796, 106.83513856325149],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_4bb24285f16cedeb6741f72f900b3097 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec02cfc46314047bd2e014d3237c66ee = $(`<div id="html_ec02cfc46314047bd2e014d3237c66ee" style="width: 100.0%; height: 100.0%;">Rumah Bersalin Budi Kemuliaan</div>`)[0];
+                popup_4bb24285f16cedeb6741f72f900b3097.setContent(html_ec02cfc46314047bd2e014d3237c66ee);
+            
+        
+
+        marker_0f5a78a19be952fb19ff414fbf6bdf47.bindPopup(popup_4bb24285f16cedeb6741f72f900b3097)
+        ;
+
+        
+    
+    
+            var marker_071f50c376deb6667578a8dd80f24e80 = L.marker(
+                [-6.2316306, 106.8466818],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b06c126546668d671227b5f2a05117aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35829ea24ff0ef330a6638ef96b16e36 = $(`<div id="html_35829ea24ff0ef330a6638ef96b16e36" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kecamatan Tebet</div>`)[0];
+                popup_b06c126546668d671227b5f2a05117aa.setContent(html_35829ea24ff0ef330a6638ef96b16e36);
+            
+        
+
+        marker_071f50c376deb6667578a8dd80f24e80.bindPopup(popup_b06c126546668d671227b5f2a05117aa)
+        ;
+
+        
+    
+    
+            var marker_0629524f87d42ccff57ce601601581c8 = L.marker(
+                [-6.25745022460778, 106.8075242719324],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ef5a3edeb09e1b60832bdcd9ad6a3865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c307524ea011be98066202e26a4940c = $(`<div id="html_1c307524ea011be98066202e26a4940c" style="width: 100.0%; height: 100.0%;">RSIA Brawijaya</div>`)[0];
+                popup_ef5a3edeb09e1b60832bdcd9ad6a3865.setContent(html_1c307524ea011be98066202e26a4940c);
+            
+        
+
+        marker_0629524f87d42ccff57ce601601581c8.bindPopup(popup_ef5a3edeb09e1b60832bdcd9ad6a3865)
+        ;
+
+        
+    
+    
+            var marker_ce2d849cade89aa35990e669edbbc844 = L.marker(
+                [-6.196357359356058, 106.88548949782093],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_426c6f6a5079bf87d1d7b94e6cd69f4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18b0d89add457ccab31f06c87657ba20 = $(`<div id="html_18b0d89add457ccab31f06c87657ba20" style="width: 100.0%; height: 100.0%;">Rumah Sakit Rawamangun</div>`)[0];
+                popup_426c6f6a5079bf87d1d7b94e6cd69f4b.setContent(html_18b0d89add457ccab31f06c87657ba20);
+            
+        
+
+        marker_ce2d849cade89aa35990e669edbbc844.bindPopup(popup_426c6f6a5079bf87d1d7b94e6cd69f4b)
+        ;
+
+        
+    
+    
+            var marker_60e14595f0d0bf0ab0feef1096405c52 = L.marker(
+                [-6.250843123959753, 106.84197044588882],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1cc970b97a696b0b07cb4099a5fc33b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcb90a96e034fce1080aa949a988ca2e = $(`<div id="html_fcb90a96e034fce1080aa949a988ca2e" style="width: 100.0%; height: 100.0%;">Rumah Sakit Tria Dipa</div>`)[0];
+                popup_1cc970b97a696b0b07cb4099a5fc33b5.setContent(html_fcb90a96e034fce1080aa949a988ca2e);
+            
+        
+
+        marker_60e14595f0d0bf0ab0feef1096405c52.bindPopup(popup_1cc970b97a696b0b07cb4099a5fc33b5)
+        ;
+
+        
+    
+    
+            var marker_f9f81a76a8ac13e89c4cd03811d04e5b = L.marker(
+                [-6.132034246990435, 106.73708478835655],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cb49f22b808b87a88d2e47d3d4541efe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba2599b4e01a968ccc6b45c5d525ef2b = $(`<div id="html_ba2599b4e01a968ccc6b45c5d525ef2b" style="width: 100.0%; height: 100.0%;">Rumah Sakit Cinta Kasih Tzu Chi</div>`)[0];
+                popup_cb49f22b808b87a88d2e47d3d4541efe.setContent(html_ba2599b4e01a968ccc6b45c5d525ef2b);
+            
+        
+
+        marker_f9f81a76a8ac13e89c4cd03811d04e5b.bindPopup(popup_cb49f22b808b87a88d2e47d3d4541efe)
+        ;
+
+        
+    
+    
+            var marker_7e235c0f29a0e80e98915985942aa347 = L.marker(
+                [-6.3555381344114386, 106.81998337194544],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_8a30a378414660a3ccfff78344047d51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a15ce53382f543bb305f9bf54e3b56d0 = $(`<div id="html_a15ce53382f543bb305f9bf54e3b56d0" style="width: 100.0%; height: 100.0%;">Rumah Sakit Sofa Marwa</div>`)[0];
+                popup_8a30a378414660a3ccfff78344047d51.setContent(html_a15ce53382f543bb305f9bf54e3b56d0);
+            
+        
+
+        marker_7e235c0f29a0e80e98915985942aa347.bindPopup(popup_8a30a378414660a3ccfff78344047d51)
+        ;
+
+        
+    
+    
+            var marker_12f5d18e280859ef121bf313e0f8a372 = L.marker(
+                [-6.123065978847175, 106.73914571078019],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3e35103ee1a38a4f071bbcd310569835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f75d409437a20cb6a264a0722dd6414 = $(`<div id="html_9f75d409437a20cb6a264a0722dd6414" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Grand Family</div>`)[0];
+                popup_3e35103ee1a38a4f071bbcd310569835.setContent(html_9f75d409437a20cb6a264a0722dd6414);
+            
+        
+
+        marker_12f5d18e280859ef121bf313e0f8a372.bindPopup(popup_3e35103ee1a38a4f071bbcd310569835)
+        ;
+
+        
+    
+    
+            var marker_bb1bf9fb4eec728c34b558f1e62fde36 = L.marker(
+                [-6.112973356016298, 106.92640465444484],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9fbe8ac003e67c17bd34522499524e93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19ea8587fdc6e1ab342083401eed94b2 = $(`<div id="html_19ea8587fdc6e1ab342083401eed94b2" style="width: 100.0%; height: 100.0%;">RSU Kecamatan Cilincing</div>`)[0];
+                popup_9fbe8ac003e67c17bd34522499524e93.setContent(html_19ea8587fdc6e1ab342083401eed94b2);
+            
+        
+
+        marker_bb1bf9fb4eec728c34b558f1e62fde36.bindPopup(popup_9fbe8ac003e67c17bd34522499524e93)
+        ;
+
+        
+    
+    
+            var marker_5a3b05f771f0fe097cfc7ce69760f537 = L.marker(
+                [-6.232323550209286, 106.76256740902862],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a7ce3ac5c183fc72f52d71339560035f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6782421b66d483780a27ec6dbee38aba = $(`<div id="html_6782421b66d483780a27ec6dbee38aba" style="width: 100.0%; height: 100.0%;">RSIA Avisena</div>`)[0];
+                popup_a7ce3ac5c183fc72f52d71339560035f.setContent(html_6782421b66d483780a27ec6dbee38aba);
+            
+        
+
+        marker_5a3b05f771f0fe097cfc7ce69760f537.bindPopup(popup_a7ce3ac5c183fc72f52d71339560035f)
+        ;
+
+        
+    
+    
+            var marker_710b637ad1f25889d5c4d9015b60526e = L.marker(
+                [-6.145540351909712, 106.92393920121637],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9e7f73ca579391d0d4e1b77441d16d8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31dcd1677c2f5a8587e84ef2cf6088c4 = $(`<div id="html_31dcd1677c2f5a8587e84ef2cf6088c4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum & Pekerja</div>`)[0];
+                popup_9e7f73ca579391d0d4e1b77441d16d8a.setContent(html_31dcd1677c2f5a8587e84ef2cf6088c4);
+            
+        
+
+        marker_710b637ad1f25889d5c4d9015b60526e.bindPopup(popup_9e7f73ca579391d0d4e1b77441d16d8a)
+        ;
+
+        
+    
+    
+            var marker_09a5e17a3921c48f1c99b1d02895e408 = L.marker(
+                [-6.200176970914969, 106.85538077774869],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6df2b29c2dafbf3c366167c1f4a12047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b48961226b09dde25da161acfe77fc0 = $(`<div id="html_7b48961226b09dde25da161acfe77fc0" style="width: 100.0%; height: 100.0%;">RS Jantung Jakarta</div>`)[0];
+                popup_6df2b29c2dafbf3c366167c1f4a12047.setContent(html_7b48961226b09dde25da161acfe77fc0);
+            
+        
+
+        marker_09a5e17a3921c48f1c99b1d02895e408.bindPopup(popup_6df2b29c2dafbf3c366167c1f4a12047)
+        ;
+
+        
+    
+    
+            var marker_e8bb4da08deaefd1ff667df408d9e664 = L.marker(
+                [-6.22121215977527, 106.86474387566231],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5ce54fc925b5a5d0903cc5cbd41d4ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_969239d32d7a319ee7228eb2d56cd0e5 = $(`<div id="html_969239d32d7a319ee7228eb2d56cd0e5" style="width: 100.0%; height: 100.0%;">RS Hermina Jatinegara</div>`)[0];
+                popup_5ce54fc925b5a5d0903cc5cbd41d4ddb.setContent(html_969239d32d7a319ee7228eb2d56cd0e5);
+            
+        
+
+        marker_e8bb4da08deaefd1ff667df408d9e664.bindPopup(popup_5ce54fc925b5a5d0903cc5cbd41d4ddb)
+        ;
+
+        
+    
+    
+            var marker_dd91f9c2991c00b8664e2272b70be901 = L.marker(
+                [-6.240131889578462, 106.84119348779247],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f4de5af40265f443185c96375b3a44d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9a62682740706aa417c316e88e23d60 = $(`<div id="html_f9a62682740706aa417c316e88e23d60" style="width: 100.0%; height: 100.0%;">Bidakara Medical Center</div>`)[0];
+                popup_f4de5af40265f443185c96375b3a44d4.setContent(html_f9a62682740706aa417c316e88e23d60);
+            
+        
+
+        marker_dd91f9c2991c00b8664e2272b70be901.bindPopup(popup_f4de5af40265f443185c96375b3a44d4)
+        ;
+
+        
+    
+    
+            var marker_3df5d13a7580d8e1b0893fdb1711e66e = L.marker(
+                [-6.294264854276031, 106.88260519844647],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_36e297673447f1531b6cbffa812c96b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bcb7ba2ad910c343afbb6a5ec2d5845 = $(`<div id="html_1bcb7ba2ad910c343afbb6a5ec2d5845" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_36e297673447f1531b6cbffa812c96b0.setContent(html_1bcb7ba2ad910c343afbb6a5ec2d5845);
+            
+        
+
+        marker_3df5d13a7580d8e1b0893fdb1711e66e.bindPopup(popup_36e297673447f1531b6cbffa812c96b0)
+        ;
+
+        
+    
+    
+            var marker_edfa24fc13420c4bedf27e14085ae575 = L.marker(
+                [-6.199188569656437, 106.83752800011457],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1fe9800026d705fd2e93877af1c5fdcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fcea9e01fb367482a609d4ba5f49c01 = $(`<div id="html_3fcea9e01fb367482a609d4ba5f49c01" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bedah Bina Estetika</div>`)[0];
+                popup_1fe9800026d705fd2e93877af1c5fdcb.setContent(html_3fcea9e01fb367482a609d4ba5f49c01);
+            
+        
+
+        marker_edfa24fc13420c4bedf27e14085ae575.bindPopup(popup_1fe9800026d705fd2e93877af1c5fdcb)
+        ;
+
+        
+    
+    
+            var marker_a9c8248d57ec7f6b81eaa351efef1bd9 = L.marker(
+                [-6.198600577922679, 106.83683493919993],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_af89b32bec98eb0861561736f47a9f48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33266212b498809342946b9302d714bd = $(`<div id="html_33266212b498809342946b9302d714bd" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mata JEC</div>`)[0];
+                popup_af89b32bec98eb0861561736f47a9f48.setContent(html_33266212b498809342946b9302d714bd);
+            
+        
+
+        marker_a9c8248d57ec7f6b81eaa351efef1bd9.bindPopup(popup_af89b32bec98eb0861561736f47a9f48)
+        ;
+
+        
+    
+    
+            var marker_0c65f24a4a4b789c17e4886c16b59fb9 = L.marker(
+                [-6.299590083839278, 106.86909322203341],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_940cee303eb434802b2e95cba4bd1700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f970f3587e4adf683ed96e31b0111cc1 = $(`<div id="html_f970f3587e4adf683ed96e31b0111cc1" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Al Fauzan</div>`)[0];
+                popup_940cee303eb434802b2e95cba4bd1700.setContent(html_f970f3587e4adf683ed96e31b0111cc1);
+            
+        
+
+        marker_0c65f24a4a4b789c17e4886c16b59fb9.bindPopup(popup_940cee303eb434802b2e95cba4bd1700)
+        ;
+
+        
+    
+    
+            var marker_40faeb907e7f35cbb6f8158ec24093f1 = L.marker(
+                [-6.206413247402205, 106.84842540809021],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9f6d965c6f10045a7ba3a9ed0987a39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a056b9b04eb55e35b1f21628ff418fa = $(`<div id="html_7a056b9b04eb55e35b1f21628ff418fa" style="width: 100.0%; height: 100.0%;">RSIA Tambak</div>`)[0];
+                popup_9f6d965c6f10045a7ba3a9ed0987a39a.setContent(html_7a056b9b04eb55e35b1f21628ff418fa);
+            
+        
+
+        marker_40faeb907e7f35cbb6f8158ec24093f1.bindPopup(popup_9f6d965c6f10045a7ba3a9ed0987a39a)
+        ;
+
+        
+    
+    
+            var marker_7ad61df2c16c9b9b03b2180a95140dd0 = L.marker(
+                [-6.202037745881221, 106.84688255865505],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_8f735d27211b659f5d84d7356e9ef9f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f114196f84b33ce7e9791ea88723d8 = $(`<div id="html_f9f114196f84b33ce7e9791ea88723d8" style="width: 100.0%; height: 100.0%;">RS K</div>`)[0];
+                popup_8f735d27211b659f5d84d7356e9ef9f9.setContent(html_f9f114196f84b33ce7e9791ea88723d8);
+            
+        
+
+        marker_7ad61df2c16c9b9b03b2180a95140dd0.bindPopup(popup_8f735d27211b659f5d84d7356e9ef9f9)
+        ;
+
+        
+    
+    
+            var marker_d49a0661a727ab719bacef60e0785691 = L.marker(
+                [-6.255872868145985, 106.86308885777633],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d61e9424791931bdc1b46520e3bf0074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_777ca162edcbd3c410a06f006b8ce09c = $(`<div id="html_777ca162edcbd3c410a06f006b8ce09c" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Daerah Budi Asih</div>`)[0];
+                popup_d61e9424791931bdc1b46520e3bf0074.setContent(html_777ca162edcbd3c410a06f006b8ce09c);
+            
+        
+
+        marker_d49a0661a727ab719bacef60e0785691.bindPopup(popup_d61e9424791931bdc1b46520e3bf0074)
+        ;
+
+        
+    
+    
+            var marker_1e6b19fcc083df32ba8c736a042703b1 = L.marker(
+                [-6.219106450595266, 106.81722277811335],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e4034cf34fa1ffc08f9f8110a2813813 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf78f2bf7af0a9808b534afb705a3aa2 = $(`<div id="html_bf78f2bf7af0a9808b534afb705a3aa2" style="width: 100.0%; height: 100.0%;">Rumah Sakit Siloam</div>`)[0];
+                popup_e4034cf34fa1ffc08f9f8110a2813813.setContent(html_bf78f2bf7af0a9808b534afb705a3aa2);
+            
+        
+
+        marker_1e6b19fcc083df32ba8c736a042703b1.bindPopup(popup_e4034cf34fa1ffc08f9f8110a2813813)
+        ;
+
+        
+    
+    
+            var marker_3fb74d64d356a48787b43ac28405f6a8 = L.marker(
+                [-6.2532889212577745, 106.84119344157315],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2529d83b8ff053b4cf9c46f4ee604395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058c3f239967dd05cc42267e719d938e = $(`<div id="html_058c3f239967dd05cc42267e719d938e" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu Dan Anak Brawijaya Duren Tiga</div>`)[0];
+                popup_2529d83b8ff053b4cf9c46f4ee604395.setContent(html_058c3f239967dd05cc42267e719d938e);
+            
+        
+
+        marker_3fb74d64d356a48787b43ac28405f6a8.bindPopup(popup_2529d83b8ff053b4cf9c46f4ee604395)
+        ;
+
+        
+    
+    
+            var marker_817a53039721933d1f56096867917657 = L.marker(
+                [-6.195964886045427, 106.8371645143753],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_dbe02391190a5cc5bd12831e86b5987e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a43f48fcc9a2f2c63475edaa9ef5a40c = $(`<div id="html_a43f48fcc9a2f2c63475edaa9ef5a40c" style="width: 100.0%; height: 100.0%;">RSU Bunda Jakarta</div>`)[0];
+                popup_dbe02391190a5cc5bd12831e86b5987e.setContent(html_a43f48fcc9a2f2c63475edaa9ef5a40c);
+            
+        
+
+        marker_817a53039721933d1f56096867917657.bindPopup(popup_dbe02391190a5cc5bd12831e86b5987e)
+        ;
+
+        
+    
+    
+            var marker_e2e446251a0d2dfe77bc7c9202445619 = L.marker(
+                [-6.191314914222272, 106.82785370663889],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_52a651aa72231a20ac58e64d887531be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3432cb4e5b2285772eaa4ae3ace000f = $(`<div id="html_d3432cb4e5b2285772eaa4ae3ace000f" style="width: 100.0%; height: 100.0%;">Rumah Sakit YPK Mandiri</div>`)[0];
+                popup_52a651aa72231a20ac58e64d887531be.setContent(html_d3432cb4e5b2285772eaa4ae3ace000f);
+            
+        
+
+        marker_e2e446251a0d2dfe77bc7c9202445619.bindPopup(popup_52a651aa72231a20ac58e64d887531be)
+        ;
+
+        
+    
+    
+            var marker_f80bb276795490cc22f7d76237299fde = L.marker(
+                [-6.189810753218416, 106.82934682728192],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_dcd0e15ac1f5461b2ab994c92cbc9c45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d6c71c97be2fa9a1f97b7afcf334476 = $(`<div id="html_2d6c71c97be2fa9a1f97b7afcf334476" style="width: 100.0%; height: 100.0%;">Rumah Sakit Abdi Waluyo</div>`)[0];
+                popup_dcd0e15ac1f5461b2ab994c92cbc9c45.setContent(html_2d6c71c97be2fa9a1f97b7afcf334476);
+            
+        
+
+        marker_f80bb276795490cc22f7d76237299fde.bindPopup(popup_dcd0e15ac1f5461b2ab994c92cbc9c45)
+        ;
+
+        
+    
+    
+            var marker_73b8ff687f01325512839327eaf09e55 = L.marker(
+                [-6.181830687843353, 106.85047067861159],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ae26e1055ab64cd16976ed160e7c045e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eab8b527f322c477a96a34ce3608fe0 = $(`<div id="html_5eab8b527f322c477a96a34ce3608fe0" style="width: 100.0%; height: 100.0%;">RSUD Johar Baru</div>`)[0];
+                popup_ae26e1055ab64cd16976ed160e7c045e.setContent(html_5eab8b527f322c477a96a34ce3608fe0);
+            
+        
+
+        marker_73b8ff687f01325512839327eaf09e55.bindPopup(popup_ae26e1055ab64cd16976ed160e7c045e)
+        ;
+
+        
+    
+    
+            var marker_c53b3ae2cbe43d9acc5b84c7410edc86 = L.marker(
+                [-6.186876459802365, 106.83841391419236],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_87a9f5366912a8726ebbaac19877795e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8a34b98c65464c6fb120ad72d3018ce = $(`<div id="html_f8a34b98c65464c6fb120ad72d3018ce" style="width: 100.0%; height: 100.0%;">Rumah Sakit Menteng Mitra Afia</div>`)[0];
+                popup_87a9f5366912a8726ebbaac19877795e.setContent(html_f8a34b98c65464c6fb120ad72d3018ce);
+            
+        
+
+        marker_c53b3ae2cbe43d9acc5b84c7410edc86.bindPopup(popup_87a9f5366912a8726ebbaac19877795e)
+        ;
+
+        
+    
+    
+            var marker_ed914737c3c086ab4dc9d5018705e05e = L.marker(
+                [-6.23028375, 106.9253539],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_8ed5681dce410eed8b5abf675131c1d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6d298295d2df1b584fda856897d3ecf = $(`<div id="html_f6d298295d2df1b584fda856897d3ecf" style="width: 100.0%; height: 100.0%;">RSIA Sayyidah</div>`)[0];
+                popup_8ed5681dce410eed8b5abf675131c1d4.setContent(html_f6d298295d2df1b584fda856897d3ecf);
+            
+        
+
+        marker_ed914737c3c086ab4dc9d5018705e05e.bindPopup(popup_8ed5681dce410eed8b5abf675131c1d4)
+        ;
+
+        
+    
+    
+            var marker_fa2dcb9e56d79ca355646c563bd54da4 = L.marker(
+                [-6.200801229613402, 106.83192763954435],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c3ea4978fab567c80cf7b1e5d350afee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a33a1a336d8d384e029d45ae3c1bf62 = $(`<div id="html_0a33a1a336d8d384e029d45ae3c1bf62" style="width: 100.0%; height: 100.0%;">Rumah Sehat Sunda Kelapa</div>`)[0];
+                popup_c3ea4978fab567c80cf7b1e5d350afee.setContent(html_0a33a1a336d8d384e029d45ae3c1bf62);
+            
+        
+
+        marker_fa2dcb9e56d79ca355646c563bd54da4.bindPopup(popup_c3ea4978fab567c80cf7b1e5d350afee)
+        ;
+
+        
+    
+    
+            var marker_371597a6138fbe51d6d6fc654bd5b107 = L.marker(
+                [-6.218953969543094, 106.84494391629964],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0ebca07e85f44f23bd7d1e531676c734 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05571e5b89b02a4d6506019a6e83a2eb = $(`<div id="html_05571e5b89b02a4d6506019a6e83a2eb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Budhi Jaya</div>`)[0];
+                popup_0ebca07e85f44f23bd7d1e531676c734.setContent(html_05571e5b89b02a4d6506019a6e83a2eb);
+            
+        
+
+        marker_371597a6138fbe51d6d6fc654bd5b107.bindPopup(popup_0ebca07e85f44f23bd7d1e531676c734)
+        ;
+
+        
+    
+    
+            var marker_c58361a2cd7ff7b1f435973b61239ff2 = L.marker(
+                [-6.242584579610444, 106.85017825663421],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1c5641022da952922de02902572007f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eead05b0473e57e28535e846d2e74d43 = $(`<div id="html_eead05b0473e57e28535e846d2e74d43" style="width: 100.0%; height: 100.0%;">Rumah Sakit Tebet</div>`)[0];
+                popup_1c5641022da952922de02902572007f4.setContent(html_eead05b0473e57e28535e846d2e74d43);
+            
+        
+
+        marker_c58361a2cd7ff7b1f435973b61239ff2.bindPopup(popup_1c5641022da952922de02902572007f4)
+        ;
+
+        
+    
+    
+            var marker_cf81c55a63272af080eb662d1a345a76 = L.marker(
+                [-6.191407702228906, 106.84190524671581],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_01e9e055dfb57f29f9b71a01dc11e653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b8420ddc2b816c4416be8afbba77ee = $(`<div id="html_b5b8420ddc2b816c4416be8afbba77ee" style="width: 100.0%; height: 100.0%;">Rumah Sakit PGI CIKINI</div>`)[0];
+                popup_01e9e055dfb57f29f9b71a01dc11e653.setContent(html_b5b8420ddc2b816c4416be8afbba77ee);
+            
+        
+
+        marker_cf81c55a63272af080eb662d1a345a76.bindPopup(popup_01e9e055dfb57f29f9b71a01dc11e653)
+        ;
+
+        
+    
+    
+            var marker_b0a730d337039e439916602b0f23e0be = L.marker(
+                [-6.281785258481145, 106.87151596462671],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_447d4577cbae0589955d9f7b10a52d6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da2281e5a2ac7ade138a2de4202790bd = $(`<div id="html_da2281e5a2ac7ade138a2de4202790bd" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bersalin Elshama</div>`)[0];
+                popup_447d4577cbae0589955d9f7b10a52d6e.setContent(html_da2281e5a2ac7ade138a2de4202790bd);
+            
+        
+
+        marker_b0a730d337039e439916602b0f23e0be.bindPopup(popup_447d4577cbae0589955d9f7b10a52d6e)
+        ;
+
+        
+    
+    
+            var marker_2183bbf5d8f2af8ce8c1b541a3ac210e = L.marker(
+                [-6.215589817341794, 106.88379713711798],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ab6e448277762d19f652445311b472ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41686b9907098d972ddcf3c6ce13598b = $(`<div id="html_41686b9907098d972ddcf3c6ce13598b" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Pengayoman</div>`)[0];
+                popup_ab6e448277762d19f652445311b472ff.setContent(html_41686b9907098d972ddcf3c6ce13598b);
+            
+        
+
+        marker_2183bbf5d8f2af8ce8c1b541a3ac210e.bindPopup(popup_ab6e448277762d19f652445311b472ff)
+        ;
+
+        
+    
+    
+            var marker_843fb5ba82a03a1c2288ea3dd93b1549 = L.marker(
+                [-6.195000579792405, 106.90585328307515],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3ea229dca9e7095f8939f370a4ca0643 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab96c58e136b4656edaa060e42578a4 = $(`<div id="html_cab96c58e136b4656edaa060e42578a4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Harapan Jayakarta</div>`)[0];
+                popup_3ea229dca9e7095f8939f370a4ca0643.setContent(html_cab96c58e136b4656edaa060e42578a4);
+            
+        
+
+        marker_843fb5ba82a03a1c2288ea3dd93b1549.bindPopup(popup_3ea229dca9e7095f8939f370a4ca0643)
+        ;
+
+        
+    
+    
+            var marker_a69b58d9c39873b0a8688f8e84f4404a = L.marker(
+                [-6.154252192279317, 106.8456986313756],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_052fb4a9e43179c1cf888816551ce234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_281d465000e9f9e84ceeced1e4744023 = $(`<div id="html_281d465000e9f9e84ceeced1e4744023" style="width: 100.0%; height: 100.0%;">RS Hermina Kemayoran</div>`)[0];
+                popup_052fb4a9e43179c1cf888816551ce234.setContent(html_281d465000e9f9e84ceeced1e4744023);
+            
+        
+
+        marker_a69b58d9c39873b0a8688f8e84f4404a.bindPopup(popup_052fb4a9e43179c1cf888816551ce234)
+        ;
+
+        
+    
+    
+            var marker_051fda487e2a5d515f40c820628ea1fa = L.marker(
+                [-6.2062439413812065, 106.86601677025185],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2b41be20ab0f75f19916a44e24fdbf99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43fb4bac5c9af1520221b1c0a73542f0 = $(`<div id="html_43fb4bac5c9af1520221b1c0a73542f0" style="width: 100.0%; height: 100.0%;">RSUD Matraman</div>`)[0];
+                popup_2b41be20ab0f75f19916a44e24fdbf99.setContent(html_43fb4bac5c9af1520221b1c0a73542f0);
+            
+        
+
+        marker_051fda487e2a5d515f40c820628ea1fa.bindPopup(popup_2b41be20ab0f75f19916a44e24fdbf99)
+        ;
+
+        
+    
+    
+            var marker_dc459323071778a1e1490c2aa26ccb20 = L.marker(
+                [-6.19737259152234, 106.8447027281044],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_40aacef0b511449c16e7bfe65feb0d27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f98c13349c78801391c0369437b802f2 = $(`<div id="html_f98c13349c78801391c0369437b802f2" style="width: 100.0%; height: 100.0%;">RSCM Unit Pelayanan Mata</div>`)[0];
+                popup_40aacef0b511449c16e7bfe65feb0d27.setContent(html_f98c13349c78801391c0369437b802f2);
+            
+        
+
+        marker_dc459323071778a1e1490c2aa26ccb20.bindPopup(popup_40aacef0b511449c16e7bfe65feb0d27)
+        ;
+
+        
+    
+    
+            var marker_8dfa04a32bd79c36a3e2d023e931191a = L.marker(
+                [-6.28687463660076, 106.86228595860415],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9a36700a8ff1db68df2a15a8fbf2b00d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71656065d22ed154ec15945c1fd15032 = $(`<div id="html_71656065d22ed154ec15945c1fd15032" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kramat Jati</div>`)[0];
+                popup_9a36700a8ff1db68df2a15a8fbf2b00d.setContent(html_71656065d22ed154ec15945c1fd15032);
+            
+        
+
+        marker_8dfa04a32bd79c36a3e2d023e931191a.bindPopup(popup_9a36700a8ff1db68df2a15a8fbf2b00d)
+        ;
+
+        
+    
+    
+            var marker_ce18c5c92c983369b557cc8272e53054 = L.marker(
+                [-6.271329725989038, 106.83021217063333],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2475581691f09a362e7d56893cc35ffc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab0b8ee8fa516e645614abc3baaf0fe = $(`<div id="html_2ab0b8ee8fa516e645614abc3baaf0fe" style="width: 100.0%; height: 100.0%;">Rumah Sakit Jakarta Medical Center</div>`)[0];
+                popup_2475581691f09a362e7d56893cc35ffc.setContent(html_2ab0b8ee8fa516e645614abc3baaf0fe);
+            
+        
+
+        marker_ce18c5c92c983369b557cc8272e53054.bindPopup(popup_2475581691f09a362e7d56893cc35ffc)
+        ;
+
+        
+    
+    
+            var marker_b61b024af369fad79495d2dc8400b9ce = L.marker(
+                [-6.254553239276348, 106.83233626011628],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9971f4511a162e15e4aa3846c2efce9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36e16ad1b53edb778551528882db1c46 = $(`<div id="html_36e16ad1b53edb778551528882db1c46" style="width: 100.0%; height: 100.0%;">Rumah Sakit Siloam</div>`)[0];
+                popup_9971f4511a162e15e4aa3846c2efce9e.setContent(html_36e16ad1b53edb778551528882db1c46);
+            
+        
+
+        marker_b61b024af369fad79495d2dc8400b9ce.bindPopup(popup_9971f4511a162e15e4aa3846c2efce9e)
+        ;
+
+        
+    
+    
+            var marker_128d39a870d9ced75ea0358375f73e8d = L.marker(
+                [-6.195424851858594, 106.85142472246082],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3f913ad0e1d841e9649210a1d4dddb16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba844e093c0afacfc94ce875ee001db = $(`<div id="html_4ba844e093c0afacfc94ce875ee001db" style="width: 100.0%; height: 100.0%;">Rumah Sakit St. Carolus</div>`)[0];
+                popup_3f913ad0e1d841e9649210a1d4dddb16.setContent(html_4ba844e093c0afacfc94ce875ee001db);
+            
+        
+
+        marker_128d39a870d9ced75ea0358375f73e8d.bindPopup(popup_3f913ad0e1d841e9649210a1d4dddb16)
+        ;
+
+        
+    
+    
+            var marker_abcca49fa58ba6d2729274309624b2a9 = L.marker(
+                [-6.194344792089387, 106.84863242958475],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_49952343e8e08d38656837be4f118052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1dd2026148c4f467640beb868f13c66 = $(`<div id="html_c1dd2026148c4f467640beb868f13c66" style="width: 100.0%; height: 100.0%;">RSKGM - FKG UI</div>`)[0];
+                popup_49952343e8e08d38656837be4f118052.setContent(html_c1dd2026148c4f467640beb868f13c66);
+            
+        
+
+        marker_abcca49fa58ba6d2729274309624b2a9.bindPopup(popup_49952343e8e08d38656837be4f118052)
+        ;
+
+        
+    
+    
+            var marker_5d0a2f32b0af19689a0cf1b712946239 = L.marker(
+                [-6.196984580482539, 106.84682086098137],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0f69928b0cb238006321d47e3010320c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1dd42caffb355f8e839b2c3e1eb96a8 = $(`<div id="html_c1dd42caffb355f8e839b2c3e1eb96a8" style="width: 100.0%; height: 100.0%;">Rumah Sakit Cipto Mangunkusumo</div>`)[0];
+                popup_0f69928b0cb238006321d47e3010320c.setContent(html_c1dd42caffb355f8e839b2c3e1eb96a8);
+            
+        
+
+        marker_5d0a2f32b0af19689a0cf1b712946239.bindPopup(popup_0f69928b0cb238006321d47e3010320c)
+        ;
+
+        
+    
+    
+            var marker_b2962d408acfa2c877a5efc747bc29e0 = L.marker(
+                [-6.1716328439093155, 106.81031815808636],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2af1b8eb196475863efa64bf668a0936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f45c4d2b94f9a8fd82873c558dbaf4b6 = $(`<div id="html_f45c4d2b94f9a8fd82873c558dbaf4b6" style="width: 100.0%; height: 100.0%;">RSUD Tarakan</div>`)[0];
+                popup_2af1b8eb196475863efa64bf668a0936.setContent(html_f45c4d2b94f9a8fd82873c558dbaf4b6);
+            
+        
+
+        marker_b2962d408acfa2c877a5efc747bc29e0.bindPopup(popup_2af1b8eb196475863efa64bf668a0936)
+        ;
+
+        
+    
+    
+            var marker_ea89258bfd4dcafadde273e59174006f = L.marker(
+                [-6.190940002422802, 106.81432018231168],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f2dbe7d180c93580211fd83c69076d12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57ffef3c70adc35ff13003ce4afd0e4 = $(`<div id="html_e57ffef3c70adc35ff13003ce4afd0e4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kecamatan Tanah Abang</div>`)[0];
+                popup_f2dbe7d180c93580211fd83c69076d12.setContent(html_e57ffef3c70adc35ff13003ce4afd0e4);
+            
+        
+
+        marker_ea89258bfd4dcafadde273e59174006f.bindPopup(popup_f2dbe7d180c93580211fd83c69076d12)
+        ;
+
+        
+    
+    
+            var marker_1cc1f1cf966a18779fa875a3474cc387 = L.marker(
+                [-6.1714208648368825, 106.87127678962918],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d6a0c05dfa068712e9fb5f20adf9865c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68f8b4c7a6e70133b9823816e1906938 = $(`<div id="html_68f8b4c7a6e70133b9823816e1906938" style="width: 100.0%; height: 100.0%;">Rumah Sakit Islam Jakarta</div>`)[0];
+                popup_d6a0c05dfa068712e9fb5f20adf9865c.setContent(html_68f8b4c7a6e70133b9823816e1906938);
+            
+        
+
+        marker_1cc1f1cf966a18779fa875a3474cc387.bindPopup(popup_d6a0c05dfa068712e9fb5f20adf9865c)
+        ;
+
+        
+    
+    
+            var marker_017cabf1497e9ca3edd6aa8df4f365c7 = L.marker(
+                [-6.186189448742384, 106.73539989262487],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_61fe92094a1fec46b728d07dcfe75297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc246228e9f324a381f4207b631014e = $(`<div id="html_8cc246228e9f324a381f4207b631014e" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pondok Indah</div>`)[0];
+                popup_61fe92094a1fec46b728d07dcfe75297.setContent(html_8cc246228e9f324a381f4207b631014e);
+            
+        
+
+        marker_017cabf1497e9ca3edd6aa8df4f365c7.bindPopup(popup_61fe92094a1fec46b728d07dcfe75297)
+        ;
+
+        
+    
+    
+            var marker_1279b6d949e33da58d01df814a4bf3a9 = L.marker(
+                [-6.18233755809783, 106.84422163897835],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f060a77fb0712c5cd063fee94fe2df72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af92bffbe6bb7b689926ea1c44a98fa9 = $(`<div id="html_af92bffbe6bb7b689926ea1c44a98fa9" style="width: 100.0%; height: 100.0%;">Puskesmas Kecamatan Senen Kramat Baru</div>`)[0];
+                popup_f060a77fb0712c5cd063fee94fe2df72.setContent(html_af92bffbe6bb7b689926ea1c44a98fa9);
+            
+        
+
+        marker_1279b6d949e33da58d01df814a4bf3a9.bindPopup(popup_f060a77fb0712c5cd063fee94fe2df72)
+        ;
+
+        
+    
+    
+            var marker_0f4cec2eb43e291875b443ed02f15939 = L.marker(
+                [-6.186790747270775, 106.79795779226019],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_60d07e2472dd82bde118a733ab8e3d97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6468f453ef1ac80048c102befb8bdea = $(`<div id="html_b6468f453ef1ac80048c102befb8bdea" style="width: 100.0%; height: 100.0%;">Rumah Sakit Kanker "Dharmais"</div>`)[0];
+                popup_60d07e2472dd82bde118a733ab8e3d97.setContent(html_b6468f453ef1ac80048c102befb8bdea);
+            
+        
+
+        marker_0f4cec2eb43e291875b443ed02f15939.bindPopup(popup_60d07e2472dd82bde118a733ab8e3d97)
+        ;
+
+        
+    
+    
+            var marker_2d4fb9fd606c36910a902025ece2d054 = L.marker(
+                [-6.194696646814341, 106.73627316125338],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_192f1567e9ba2c4baee5979fe185e5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ffb055b983bcb139ab1367c312ef6ab = $(`<div id="html_0ffb055b983bcb139ab1367c312ef6ab" style="width: 100.0%; height: 100.0%;">RSU Kecamatan Kembangan</div>`)[0];
+                popup_192f1567e9ba2c4baee5979fe185e5c9.setContent(html_0ffb055b983bcb139ab1367c312ef6ab);
+            
+        
+
+        marker_2d4fb9fd606c36910a902025ece2d054.bindPopup(popup_192f1567e9ba2c4baee5979fe185e5c9)
+        ;
+
+        
+    
+    
+            var marker_c576b24b7a4947ad2c27613ab48bc2c6 = L.marker(
+                [-6.185611328519394, 106.84397888119787],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0b5189da406130c74653eabbaf8f488a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bcd107c5aaf36aae699142a62af00fc = $(`<div id="html_3bcd107c5aaf36aae699142a62af00fc" style="width: 100.0%; height: 100.0%;">Rumah Sakit Kramat 128</div>`)[0];
+                popup_0b5189da406130c74653eabbaf8f488a.setContent(html_3bcd107c5aaf36aae699142a62af00fc);
+            
+        
+
+        marker_c576b24b7a4947ad2c27613ab48bc2c6.bindPopup(popup_0b5189da406130c74653eabbaf8f488a)
+        ;
+
+        
+    
+    
+            var marker_7db8760ea5544e5bd0bdca35f4b2aeb4 = L.marker(
+                [-6.184785836006393, 106.79901216993231],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_54e1c64ffbb2a09026f25a01638c23cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3038a88643fb86acb5cf1930db331d2b = $(`<div id="html_3038a88643fb86acb5cf1930db331d2b" style="width: 100.0%; height: 100.0%;">RSAB Harapan Kita</div>`)[0];
+                popup_54e1c64ffbb2a09026f25a01638c23cb.setContent(html_3038a88643fb86acb5cf1930db331d2b);
+            
+        
+
+        marker_7db8760ea5544e5bd0bdca35f4b2aeb4.bindPopup(popup_54e1c64ffbb2a09026f25a01638c23cb)
+        ;
+
+        
+    
+    
+            var marker_f8ba94cbc7fb5f707815e9fc6a79e304 = L.marker(
+                [-6.171241382779608, 106.81542466316553],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1f240e8c94cc58bc814129435515106c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b77787854683c1dd095bd4318f448a = $(`<div id="html_03b77787854683c1dd095bd4318f448a" style="width: 100.0%; height: 100.0%;">Rumah Sakit THT Bedah Prof. Nizar</div>`)[0];
+                popup_1f240e8c94cc58bc814129435515106c.setContent(html_03b77787854683c1dd095bd4318f448a);
+            
+        
+
+        marker_f8ba94cbc7fb5f707815e9fc6a79e304.bindPopup(popup_1f240e8c94cc58bc814129435515106c)
+        ;
+
+        
+    
+    
+            var marker_dc5a875a405f9b71bcb8fbe16af2b933 = L.marker(
+                [-6.19270414243683, 106.88269322629881],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_47d67f23a781ed25f10a6dd8cadfd93d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62dcf2d0e7d1a81332259bded38b015e = $(`<div id="html_62dcf2d0e7d1a81332259bded38b015e" style="width: 100.0%; height: 100.0%;">RS Khusus Mata SMECO Jakarta</div>`)[0];
+                popup_47d67f23a781ed25f10a6dd8cadfd93d.setContent(html_62dcf2d0e7d1a81332259bded38b015e);
+            
+        
+
+        marker_dc5a875a405f9b71bcb8fbe16af2b933.bindPopup(popup_47d67f23a781ed25f10a6dd8cadfd93d)
+        ;
+
+        
+    
+    
+            var marker_903fbc574915e379c3c637470f53beaf = L.marker(
+                [-6.11428035, 106.88978670000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b46fc51050d64a4638902ef1e770cf6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c10a44200c509dfc69574d3ce55d933 = $(`<div id="html_2c10a44200c509dfc69574d3ce55d933" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mata Primasana</div>`)[0];
+                popup_b46fc51050d64a4638902ef1e770cf6b.setContent(html_2c10a44200c509dfc69574d3ce55d933);
+            
+        
+
+        marker_903fbc574915e379c3c637470f53beaf.bindPopup(popup_b46fc51050d64a4638902ef1e770cf6b)
+        ;
+
+        
+    
+    
+            var marker_8ce185c8bda7509599d16f70f643288f = L.marker(
+                [-6.291712106965366, 106.7825276743635],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_726450db33582f4759d55ab77e746e1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d32b1c64db284a73478f44394579c797 = $(`<div id="html_d32b1c64db284a73478f44394579c797" style="width: 100.0%; height: 100.0%;">Klinik Mata Nusantara</div>`)[0];
+                popup_726450db33582f4759d55ab77e746e1d.setContent(html_d32b1c64db284a73478f44394579c797);
+            
+        
+
+        marker_8ce185c8bda7509599d16f70f643288f.bindPopup(popup_726450db33582f4759d55ab77e746e1d)
+        ;
+
+        
+    
+    
+            var marker_9bacd5615647a9bf24c09ce7e16f8561 = L.marker(
+                [-6.346962052726798, 106.89464588713138],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_632ec2309d3ad25acd054431b465fc26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75765904a8b0ff939908d22656d1b831 = $(`<div id="html_75765904a8b0ff939908d22656d1b831" style="width: 100.0%; height: 100.0%;">Klinik Dr. Widi Sp.OG</div>`)[0];
+                popup_632ec2309d3ad25acd054431b465fc26.setContent(html_75765904a8b0ff939908d22656d1b831);
+            
+        
+
+        marker_9bacd5615647a9bf24c09ce7e16f8561.bindPopup(popup_632ec2309d3ad25acd054431b465fc26)
+        ;
+
+        
+    
+    
+            var marker_cfb850c20a51929d30ba4448961372ba = L.marker(
+                [-6.346997094551521, 106.8724515442556],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_fc3309625b98abd34786577e894f7ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4f9b02606b0617590b976c3347eec9 = $(`<div id="html_8c4f9b02606b0617590b976c3347eec9" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ketergantungan Obat (RSKO) Jakarta</div>`)[0];
+                popup_fc3309625b98abd34786577e894f7ea0.setContent(html_8c4f9b02606b0617590b976c3347eec9);
+            
+        
+
+        marker_cfb850c20a51929d30ba4448961372ba.bindPopup(popup_fc3309625b98abd34786577e894f7ea0)
+        ;
+
+        
+    
+    
+            var marker_31abdb432636d106564e72cbba579036 = L.marker(
+                [-6.345696344414282, 106.87388427541069],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_afb6ff29984dccc1e72efc1b10be1355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_342b1268ab7c62689db09f9e02bb2fb9 = $(`<div id="html_342b1268ab7c62689db09f9e02bb2fb9" style="width: 100.0%; height: 100.0%;">RSUD Ciracas</div>`)[0];
+                popup_afb6ff29984dccc1e72efc1b10be1355.setContent(html_342b1268ab7c62689db09f9e02bb2fb9);
+            
+        
+
+        marker_31abdb432636d106564e72cbba579036.bindPopup(popup_afb6ff29984dccc1e72efc1b10be1355)
+        ;
+
+        
+    
+    
+            var marker_537f7e5aec6cd73fbb86aedd09f7b415 = L.marker(
+                [-6.294315534467946, 106.88270874896746],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_7417102983ea46f51c6ac1b222757ff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d03cde4956aa86fadeed68eb9c12b28 = $(`<div id="html_7d03cde4956aa86fadeed68eb9c12b28" style="width: 100.0%; height: 100.0%;">Rumah Sakit Moh. Ridwan Meuraksa</div>`)[0];
+                popup_7417102983ea46f51c6ac1b222757ff7.setContent(html_7d03cde4956aa86fadeed68eb9c12b28);
+            
+        
+
+        marker_537f7e5aec6cd73fbb86aedd09f7b415.bindPopup(popup_7417102983ea46f51c6ac1b222757ff7)
+        ;
+
+        
+    
+    
+            var marker_dac63633c7fc7e7212c9f448083b75cf = L.marker(
+                [-6.327872199260653, 106.82276750767973],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3bb6297613d35c2571144108f75447b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f542ca7b8022c752368d7ed7e0a4293 = $(`<div id="html_9f542ca7b8022c752368d7ed7e0a4293" style="width: 100.0%; height: 100.0%;">RS Bersalin Rosa Kartika</div>`)[0];
+                popup_3bb6297613d35c2571144108f75447b8.setContent(html_9f542ca7b8022c752368d7ed7e0a4293);
+            
+        
+
+        marker_dac63633c7fc7e7212c9f448083b75cf.bindPopup(popup_3bb6297613d35c2571144108f75447b8)
+        ;
+
+        
+    
+    
+            var marker_d6813a9731163bfd6cc8574f42374cba = L.marker(
+                [-6.368543240517492, 106.89276624156567],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ebc0fdbb2256de9bbdb97dc16791182a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa691c121c0b685ea76b90a9e2335cad = $(`<div id="html_aa691c121c0b685ea76b90a9e2335cad" style="width: 100.0%; height: 100.0%;">Rumah Sakit Olahraga Nasional</div>`)[0];
+                popup_ebc0fdbb2256de9bbdb97dc16791182a.setContent(html_aa691c121c0b685ea76b90a9e2335cad);
+            
+        
+
+        marker_d6813a9731163bfd6cc8574f42374cba.bindPopup(popup_ebc0fdbb2256de9bbdb97dc16791182a)
+        ;
+
+        
+    
+    
+            var marker_0baf331097f2780e2a0113233d5d8199 = L.marker(
+                [-6.176644858407133, 106.83728201370073],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5e0cf22741eb64933bdb3cd9146d8a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1fd8b7f16010f268313126040a27f5f = $(`<div id="html_b1fd8b7f16010f268313126040a27f5f" style="width: 100.0%; height: 100.0%;">RSPAD Gatot Soebroto</div>`)[0];
+                popup_5e0cf22741eb64933bdb3cd9146d8a54.setContent(html_b1fd8b7f16010f268313126040a27f5f);
+            
+        
+
+        marker_0baf331097f2780e2a0113233d5d8199.bindPopup(popup_5e0cf22741eb64933bdb3cd9146d8a54)
+        ;
+
+        
+    
+    
+            var marker_d207c2669ae41e6292b835e6b67e2b5e = L.marker(
+                [-6.218175458587719, 106.7779806309268],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_23edd044b23641cc59e1bc091a1c1548 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a4f50295a9bd75588371dd09eed8785 = $(`<div id="html_1a4f50295a9bd75588371dd09eed8785" style="width: 100.0%; height: 100.0%;">RS Medika Permata Hijau</div>`)[0];
+                popup_23edd044b23641cc59e1bc091a1c1548.setContent(html_1a4f50295a9bd75588371dd09eed8785);
+            
+        
+
+        marker_d207c2669ae41e6292b835e6b67e2b5e.bindPopup(popup_23edd044b23641cc59e1bc091a1c1548)
+        ;
+
+        
+    
+    
+            var marker_85267f5ad9fc51fcb9180dcb1e41976d = L.marker(
+                [-6.14965017760815, 106.70180956939659],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a7c8fb8c6375cf69ef0e577830593211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5df89a1a52e721af2b3aae085d58d1c = $(`<div id="html_f5df89a1a52e721af2b3aae085d58d1c" style="width: 100.0%; height: 100.0%;">RS Mitra Keluarga</div>`)[0];
+                popup_a7c8fb8c6375cf69ef0e577830593211.setContent(html_f5df89a1a52e721af2b3aae085d58d1c);
+            
+        
+
+        marker_85267f5ad9fc51fcb9180dcb1e41976d.bindPopup(popup_a7c8fb8c6375cf69ef0e577830593211)
+        ;
+
+        
+    
+    
+            var marker_c963d328c74276e898c0bf0497aed193 = L.marker(
+                [-6.152936449999999, 106.71230575],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5c28e9ea72a57006c52b820766d83d34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_144762eb49bee93b7122d60e5b73bad0 = $(`<div id="html_144762eb49bee93b7122d60e5b73bad0" style="width: 100.0%; height: 100.0%;">Rumah Sakit Hermina Daan Mogot</div>`)[0];
+                popup_5c28e9ea72a57006c52b820766d83d34.setContent(html_144762eb49bee93b7122d60e5b73bad0);
+            
+        
+
+        marker_c963d328c74276e898c0bf0497aed193.bindPopup(popup_5c28e9ea72a57006c52b820766d83d34)
+        ;
+
+        
+    
+    
+            var marker_97f0ba9a251ccf57d94ac260d209d1ad = L.marker(
+                [-6.156684614739638, 106.86377684869925],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1590999a03f18a8632a629b0be95a994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_020b74bcebb669ef982b5a3a811980b2 = $(`<div id="html_020b74bcebb669ef982b5a3a811980b2" style="width: 100.0%; height: 100.0%;">RSUD Kecamatan Kemayoran</div>`)[0];
+                popup_1590999a03f18a8632a629b0be95a994.setContent(html_020b74bcebb669ef982b5a3a811980b2);
+            
+        
+
+        marker_97f0ba9a251ccf57d94ac260d209d1ad.bindPopup(popup_1590999a03f18a8632a629b0be95a994)
+        ;
+
+        
+    
+    
+            var marker_98e76ef1c365e42c5e2b4f693ba06ad5 = L.marker(
+                [-6.285486968360273, 106.84232858980049],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_97c0f1575ce39e703b8d0bae78cf7a07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8088ed87bce5a16d0967b5f15e3761 = $(`<div id="html_ed8088ed87bce5a16d0967b5f15e3761" style="width: 100.0%; height: 100.0%;">RSUD Jati Padang</div>`)[0];
+                popup_97c0f1575ce39e703b8d0bae78cf7a07.setContent(html_ed8088ed87bce5a16d0967b5f15e3761);
+            
+        
+
+        marker_98e76ef1c365e42c5e2b4f693ba06ad5.bindPopup(popup_97c0f1575ce39e703b8d0bae78cf7a07)
+        ;
+
+        
+    
+    
+            var marker_81cb0f921a626ae15329c509ef5055f2 = L.marker(
+                [-6.292242497786282, 106.78448368950221],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cdf9f6257ca7c0ae9f14683916d01830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_990d5a5d5520fa683e4505dbea5b480e = $(`<div id="html_990d5a5d5520fa683e4505dbea5b480e" style="width: 100.0%; height: 100.0%;">Siloam Hospital</div>`)[0];
+                popup_cdf9f6257ca7c0ae9f14683916d01830.setContent(html_990d5a5d5520fa683e4505dbea5b480e);
+            
+        
+
+        marker_81cb0f921a626ae15329c509ef5055f2.bindPopup(popup_cdf9f6257ca7c0ae9f14683916d01830)
+        ;
+
+        
+    
+    
+            var marker_736932c218cf4e93c12542eb57b5af01 = L.marker(
+                [-6.22030524474111, 106.93998685164483],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_52f1569107cacd8d9741b3511279b30d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82522287478afde6dd0e041f50f1dfc9 = $(`<div id="html_82522287478afde6dd0e041f50f1dfc9" style="width: 100.0%; height: 100.0%;">RS Islam Jakarta Pondok Kopi</div>`)[0];
+                popup_52f1569107cacd8d9741b3511279b30d.setContent(html_82522287478afde6dd0e041f50f1dfc9);
+            
+        
+
+        marker_736932c218cf4e93c12542eb57b5af01.bindPopup(popup_52f1569107cacd8d9741b3511279b30d)
+        ;
+
+        
+    
+    
+            var marker_058c75adf1bacd07c4b36b7e3e586dfa = L.marker(
+                [-6.344249950000001, 106.81430555],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3d545dfff0c2aa7aa80b49a905a2900b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11cac12e4fd7ed45101721ea2af41f10 = $(`<div id="html_11cac12e4fd7ed45101721ea2af41f10" style="width: 100.0%; height: 100.0%;">RS Ibu dan Anak Andhika</div>`)[0];
+                popup_3d545dfff0c2aa7aa80b49a905a2900b.setContent(html_11cac12e4fd7ed45101721ea2af41f10);
+            
+        
+
+        marker_058c75adf1bacd07c4b36b7e3e586dfa.bindPopup(popup_3d545dfff0c2aa7aa80b49a905a2900b)
+        ;
+
+        
+    
+    
+            var marker_d821cf644f9701efbbff6c9717049427 = L.marker(
+                [-6.126844099688977, 106.70398773334352],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_dab05167976d6b9c795340bb90c813bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7904f0ece5282919fe7c673a52285975 = $(`<div id="html_7904f0ece5282919fe7c673a52285975" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Daerah Kalideres</div>`)[0];
+                popup_dab05167976d6b9c795340bb90c813bc.setContent(html_7904f0ece5282919fe7c673a52285975);
+            
+        
+
+        marker_d821cf644f9701efbbff6c9717049427.bindPopup(popup_dab05167976d6b9c795340bb90c813bc)
+        ;
+
+        
+    
+    
+            var marker_8e99143a8e792f0b25221b76401fd3b9 = L.marker(
+                [-6.1231258339487, 106.70496594615474],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2f062cace389b961de11488ef9402197 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69ec782656a6eaebef8177e6ab303640 = $(`<div id="html_69ec782656a6eaebef8177e6ab303640" style="width: 100.0%; height: 100.0%;">Ciputra Hospital</div>`)[0];
+                popup_2f062cace389b961de11488ef9402197.setContent(html_69ec782656a6eaebef8177e6ab303640);
+            
+        
+
+        marker_8e99143a8e792f0b25221b76401fd3b9.bindPopup(popup_2f062cace389b961de11488ef9402197)
+        ;
+
+        
+    
+    
+            var marker_eb909dd96200a97ec1206493d1473868 = L.marker(
+                [-6.203030350000001, 106.77268364999999],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cafe1da06c0a162108a13086e8de9809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e302ea8fb3f0021ab3df7f9bf541464 = $(`<div id="html_0e302ea8fb3f0021ab3df7f9bf541464" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bersalin Anggrek Mas</div>`)[0];
+                popup_cafe1da06c0a162108a13086e8de9809.setContent(html_0e302ea8fb3f0021ab3df7f9bf541464);
+            
+        
+
+        marker_eb909dd96200a97ec1206493d1473868.bindPopup(popup_cafe1da06c0a162108a13086e8de9809)
+        ;
+
+        
+    
+    
+            var marker_30ccb4c1f6ba6266df6544848c4de915 = L.marker(
+                [-6.316169889950861, 106.81137394115937],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3586e45abd6574ce528244c5451dd724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_936cbb43f3c3707f3cae59ecd68a6dbb = $(`<div id="html_936cbb43f3c3707f3cae59ecd68a6dbb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Kecamatan Jagakarsa</div>`)[0];
+                popup_3586e45abd6574ce528244c5451dd724.setContent(html_936cbb43f3c3707f3cae59ecd68a6dbb);
+            
+        
+
+        marker_30ccb4c1f6ba6266df6544848c4de915.bindPopup(popup_3586e45abd6574ce528244c5451dd724)
+        ;
+
+        
+    
+    
+            var marker_0fb0ac9d131ae8a2b0e84e07c486940d = L.marker(
+                [-6.3345397618655515, 106.82711147265381],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ac4e67799bd650f715bb058d4fc0f0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4de5276e8d439c2ee73826b9019f9df4 = $(`<div id="html_4de5276e8d439c2ee73826b9019f9df4" style="width: 100.0%; height: 100.0%;">RS Aulia</div>`)[0];
+                popup_ac4e67799bd650f715bb058d4fc0f0df.setContent(html_4de5276e8d439c2ee73826b9019f9df4);
+            
+        
+
+        marker_0fb0ac9d131ae8a2b0e84e07c486940d.bindPopup(popup_ac4e67799bd650f715bb058d4fc0f0df)
+        ;
+
+        
+    
+    
+            var marker_4fcec7a22a5efad2566a0a6c4f8f2c8c = L.marker(
+                [-6.187500457565612, 106.76111202625677],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cbe6e44f5b3f6639c4a0371d4ca110f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10027be6f43818022e551e4382063deb = $(`<div id="html_10027be6f43818022e551e4382063deb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Puri Mandiri Kedoya</div>`)[0];
+                popup_cbe6e44f5b3f6639c4a0371d4ca110f1.setContent(html_10027be6f43818022e551e4382063deb);
+            
+        
+
+        marker_4fcec7a22a5efad2566a0a6c4f8f2c8c.bindPopup(popup_cbe6e44f5b3f6639c4a0371d4ca110f1)
+        ;
+
+        
+    
+    
+            var marker_04da3d6a035dfd0ddc696604f1d7eeda = L.marker(
+                [-6.189591125448661, 106.76135024566544],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_7afa5ac230bd16890f2f830d31db5667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3673603ccddef0eab896e3d099eab3 = $(`<div id="html_bd3673603ccddef0eab896e3d099eab3" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mata Internasional - JEC Kedoya</div>`)[0];
+                popup_7afa5ac230bd16890f2f830d31db5667.setContent(html_bd3673603ccddef0eab896e3d099eab3);
+            
+        
+
+        marker_04da3d6a035dfd0ddc696604f1d7eeda.bindPopup(popup_7afa5ac230bd16890f2f830d31db5667)
+        ;
+
+        
+    
+    
+            var marker_9790986caeaedc2ebad1fc36c2679f88 = L.marker(
+                [-6.22921295, 106.8973049],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_cd2d2349cca188965fbc07180aecab07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c389bd4913b291f70df7b69d84b845d6 = $(`<div id="html_c389bd4913b291f70df7b69d84b845d6" style="width: 100.0%; height: 100.0%;">RSIA SamMarie Basra</div>`)[0];
+                popup_cd2d2349cca188965fbc07180aecab07.setContent(html_c389bd4913b291f70df7b69d84b845d6);
+            
+        
+
+        marker_9790986caeaedc2ebad1fc36c2679f88.bindPopup(popup_cd2d2349cca188965fbc07180aecab07)
+        ;
+
+        
+    
+    
+            var marker_c513cfb2f5a550cc673218356907229f = L.marker(
+                [-6.233233221316042, 106.89720687661288],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e36b4c8b36da640d61dddb8ee791cf93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4df3ce33521ee552c1d0fe1ddbe50d4d = $(`<div id="html_4df3ce33521ee552c1d0fe1ddbe50d4d" style="width: 100.0%; height: 100.0%;">RSIA Bunda Aliyah</div>`)[0];
+                popup_e36b4c8b36da640d61dddb8ee791cf93.setContent(html_4df3ce33521ee552c1d0fe1ddbe50d4d);
+            
+        
+
+        marker_c513cfb2f5a550cc673218356907229f.bindPopup(popup_e36b4c8b36da640d61dddb8ee791cf93)
+        ;
+
+        
+    
+    
+            var marker_abae32543b65d9a652a5bc63da7bf340 = L.marker(
+                [-6.286144797173532, 106.81932275964877],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_01a69b2b5c63f66a25851d9e05b664b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c18283eb83a9189d2c8fcfb4182bfb61 = $(`<div id="html_c18283eb83a9189d2c8fcfb4182bfb61" style="width: 100.0%; height: 100.0%;">RSIA Kemang</div>`)[0];
+                popup_01a69b2b5c63f66a25851d9e05b664b5.setContent(html_c18283eb83a9189d2c8fcfb4182bfb61);
+            
+        
+
+        marker_abae32543b65d9a652a5bc63da7bf340.bindPopup(popup_01a69b2b5c63f66a25851d9e05b664b5)
+        ;
+
+        
+    
+    
+            var marker_eddde3a59b4a4c629942b5bbc52b10b1 = L.marker(
+                [-6.245499077831822, 106.94283191371719],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2b7230bebe6625a51949eef19fa3e231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faebeab18d61cebe50942cef5066e43b = $(`<div id="html_faebeab18d61cebe50942cef5066e43b" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu Anak dr. Euis</div>`)[0];
+                popup_2b7230bebe6625a51949eef19fa3e231.setContent(html_faebeab18d61cebe50942cef5066e43b);
+            
+        
+
+        marker_eddde3a59b4a4c629942b5bbc52b10b1.bindPopup(popup_2b7230bebe6625a51949eef19fa3e231)
+        ;
+
+        
+    
+    
+            var marker_c79a6764bb1ac3ac1673b46d7e6b6ad0 = L.marker(
+                [-6.1465291905714805, 106.82918122920894],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6a5bc3eb061e46b57994fb52410729a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dc8970655ef619d4e8f312be072e579 = $(`<div id="html_2dc8970655ef619d4e8f312be072e579" style="width: 100.0%; height: 100.0%;">Rumah Sakit Husada</div>`)[0];
+                popup_6a5bc3eb061e46b57994fb52410729a8.setContent(html_2dc8970655ef619d4e8f312be072e579);
+            
+        
+
+        marker_c79a6764bb1ac3ac1673b46d7e6b6ad0.bindPopup(popup_6a5bc3eb061e46b57994fb52410729a8)
+        ;
+
+        
+    
+    
+            var marker_aa5997d6af5a25fd96ab8427db0a3d32 = L.marker(
+                [-6.304833991193723, 106.8105027973232],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a45e0cd8de032f143deffcade32672ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ce890cb8f266edbf1b70b6dfae72fa3 = $(`<div id="html_7ce890cb8f266edbf1b70b6dfae72fa3" style="width: 100.0%; height: 100.0%;">Rumah Sakit Marinir Cilandak</div>`)[0];
+                popup_a45e0cd8de032f143deffcade32672ec.setContent(html_7ce890cb8f266edbf1b70b6dfae72fa3);
+            
+        
+
+        marker_aa5997d6af5a25fd96ab8427db0a3d32.bindPopup(popup_a45e0cd8de032f143deffcade32672ec)
+        ;
+
+        
+    
+    
+            var marker_8c04926201d2ecc2a179e9c990544c10 = L.marker(
+                [-6.34471512913389, 106.81389560685443],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c9fde52ebb8f293e0e6693f9e9912fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_786b3f90b76e9f9f4a80224734fa2819 = $(`<div id="html_786b3f90b76e9f9f4a80224734fa2819" style="width: 100.0%; height: 100.0%;">RS Ali Sibroh Malisi</div>`)[0];
+                popup_c9fde52ebb8f293e0e6693f9e9912fb9.setContent(html_786b3f90b76e9f9f4a80224734fa2819);
+            
+        
+
+        marker_8c04926201d2ecc2a179e9c990544c10.bindPopup(popup_c9fde52ebb8f293e0e6693f9e9912fb9)
+        ;
+
+        
+    
+    
+            var marker_a15c5b70f75f8a1b31f14b59155a2fdd = L.marker(
+                [-6.185598553880427, 106.77146054067201],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1c465a147a70a4483ed6ca5653cc3e40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e80d24a957dee097e33676459635efa = $(`<div id="html_5e80d24a957dee097e33676459635efa" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bina Sehat Mandiri</div>`)[0];
+                popup_1c465a147a70a4483ed6ca5653cc3e40.setContent(html_5e80d24a957dee097e33676459635efa);
+            
+        
+
+        marker_a15c5b70f75f8a1b31f14b59155a2fdd.bindPopup(popup_1c465a147a70a4483ed6ca5653cc3e40)
+        ;
+
+        
+    
+    
+            var marker_591a1449881cb5c54e85a7fe6a5dc59f = L.marker(
+                [-6.1851655060326305, 106.78078727705923],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2d59b0ae7f852ee56cabf515f5206958 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ed85e0ceb6f7218070a1aa0f88902bf = $(`<div id="html_7ed85e0ceb6f7218070a1aa0f88902bf" style="width: 100.0%; height: 100.0%;">RS Ukrida Duri Kepa</div>`)[0];
+                popup_2d59b0ae7f852ee56cabf515f5206958.setContent(html_7ed85e0ceb6f7218070a1aa0f88902bf);
+            
+        
+
+        marker_591a1449881cb5c54e85a7fe6a5dc59f.bindPopup(popup_2d59b0ae7f852ee56cabf515f5206958)
+        ;
+
+        
+    
+    
+            var marker_52a6b3c2ff513424d107a8333a838e3c = L.marker(
+                [-6.307985264732915, 106.8709168300656],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d749e44333fde23e72a2731a9d8296cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4afcdda2f4b8f08070ce810a87cdc82 = $(`<div id="html_c4afcdda2f4b8f08070ce810a87cdc82" style="width: 100.0%; height: 100.0%;">Rumah Sakit Jantung Binawaluya</div>`)[0];
+                popup_d749e44333fde23e72a2731a9d8296cd.setContent(html_c4afcdda2f4b8f08070ce810a87cdc82);
+            
+        
+
+        marker_52a6b3c2ff513424d107a8333a838e3c.bindPopup(popup_d749e44333fde23e72a2731a9d8296cd)
+        ;
+
+        
+    
+    
+            var marker_edc5313424bb0bb33f760741d4b8a11e = L.marker(
+                [-6.231870470772062, 106.90948395987296],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ec43576b50a1b405319491e06891fdc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e02cba1742b3923630dcd400c31238ae = $(`<div id="html_e02cba1742b3923630dcd400c31238ae" style="width: 100.0%; height: 100.0%;">Rumah Sakit Duren Sawit</div>`)[0];
+                popup_ec43576b50a1b405319491e06891fdc5.setContent(html_e02cba1742b3923630dcd400c31238ae);
+            
+        
+
+        marker_edc5313424bb0bb33f760741d4b8a11e.bindPopup(popup_ec43576b50a1b405319491e06891fdc5)
+        ;
+
+        
+    
+    
+            var marker_e01c380b278dfba82d677460f99455ad = L.marker(
+                [-6.29860865199355, 106.78613375591858],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_66277f8e7a89c3264c744938b20b4141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd85dce8bc844e3af6f659df57cc3f7f = $(`<div id="html_fd85dce8bc844e3af6f659df57cc3f7f" style="width: 100.0%; height: 100.0%;">Mayapada Hospital</div>`)[0];
+                popup_66277f8e7a89c3264c744938b20b4141.setContent(html_fd85dce8bc844e3af6f659df57cc3f7f);
+            
+        
+
+        marker_e01c380b278dfba82d677460f99455ad.bindPopup(popup_66277f8e7a89c3264c744938b20b4141)
+        ;
+
+        
+    
+    
+            var marker_5ea33d536f365e8f7443abc0210fb342 = L.marker(
+                [-6.3029451068695845, 106.86811873095726],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c18fa27075b8fd19a8065564e0d1876e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a71e938fafe25eee5153390fcc042e4 = $(`<div id="html_7a71e938fafe25eee5153390fcc042e4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Harapan Bunda</div>`)[0];
+                popup_c18fa27075b8fd19a8065564e0d1876e.setContent(html_7a71e938fafe25eee5153390fcc042e4);
+            
+        
+
+        marker_5ea33d536f365e8f7443abc0210fb342.bindPopup(popup_c18fa27075b8fd19a8065564e0d1876e)
+        ;
+
+        
+    
+    
+            var marker_683d0313961e9e6a75d006e42e49c105 = L.marker(
+                [-6.168218863742839, 106.76494158317824],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_78e42ef91f454b9616d52cc69bae2d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24a4f8ca5cc684f4ecd5dd58b804786c = $(`<div id="html_24a4f8ca5cc684f4ecd5dd58b804786c" style="width: 100.0%; height: 100.0%;">RS Grha Kedoya</div>`)[0];
+                popup_78e42ef91f454b9616d52cc69bae2d10.setContent(html_24a4f8ca5cc684f4ecd5dd58b804786c);
+            
+        
+
+        marker_683d0313961e9e6a75d006e42e49c105.bindPopup(popup_78e42ef91f454b9616d52cc69bae2d10)
+        ;
+
+        
+    
+    
+            var marker_f76d6d0555edaca8e3af3934a1e0a81f = L.marker(
+                [-6.295111100562632, 106.79619384511552],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_92f67104c810da7d8db32b19876dbc32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb97893bdd724a8b194f74ff45e4744 = $(`<div id="html_bbb97893bdd724a8b194f74ff45e4744" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Pusat Fatmawati</div>`)[0];
+                popup_92f67104c810da7d8db32b19876dbc32.setContent(html_bbb97893bdd724a8b194f74ff45e4744);
+            
+        
+
+        marker_f76d6d0555edaca8e3af3934a1e0a81f.bindPopup(popup_92f67104c810da7d8db32b19876dbc32)
+        ;
+
+        
+    
+    
+            var marker_9c4b251d9eb5075294f9e9710115750d = L.marker(
+                [-6.110372204702217, 106.88938869511041],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_293bf20bc2f9d936385278ebe4fa9d0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0c757f64c8d6d0afcc0d509e916c3a0 = $(`<div id="html_b0c757f64c8d6d0afcc0d509e916c3a0" style="width: 100.0%; height: 100.0%;">Rumah Sakit Port Medical Center</div>`)[0];
+                popup_293bf20bc2f9d936385278ebe4fa9d0b.setContent(html_b0c757f64c8d6d0afcc0d509e916c3a0);
+            
+        
+
+        marker_9c4b251d9eb5075294f9e9710115750d.bindPopup(popup_293bf20bc2f9d936385278ebe4fa9d0b)
+        ;
+
+        
+    
+    
+            var marker_6d183be10132897340225d6b5f583789 = L.marker(
+                [-6.255031605293531, 106.80280082570094],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a26fcea74735519cae85ad24f7db0f2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e832807b518fa79942fe63b46951f33f = $(`<div id="html_e832807b518fa79942fe63b46951f33f" style="width: 100.0%; height: 100.0%;">RS Sanatorium Dharmawangsa</div>`)[0];
+                popup_a26fcea74735519cae85ad24f7db0f2a.setContent(html_e832807b518fa79942fe63b46951f33f);
+            
+        
+
+        marker_6d183be10132897340225d6b5f583789.bindPopup(popup_a26fcea74735519cae85ad24f7db0f2a)
+        ;
+
+        
+    
+    
+            var marker_0a6541aba0a0d84dd1ea99ca0279142a = L.marker(
+                [-6.26552055, 106.79865829999999],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d494915d16cf9da32ebc19237c452b13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfc83f3230844c3f2fe687c91c0edb57 = $(`<div id="html_cfc83f3230844c3f2fe687c91c0edb57" style="width: 100.0%; height: 100.0%;">RSUD Kebayoran Baru</div>`)[0];
+                popup_d494915d16cf9da32ebc19237c452b13.setContent(html_cfc83f3230844c3f2fe687c91c0edb57);
+            
+        
+
+        marker_0a6541aba0a0d84dd1ea99ca0279142a.bindPopup(popup_d494915d16cf9da32ebc19237c452b13)
+        ;
+
+        
+    
+    
+            var marker_2b384a81830b4b0a9f0081d96b131d45 = L.marker(
+                [-6.12920352668106, 106.89019468302452],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_14b4e408c0a30b77fb83272d30206083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bde7b3b18bb0637591c4714e7ce064e4 = $(`<div id="html_bde7b3b18bb0637591c4714e7ce064e4" style="width: 100.0%; height: 100.0%;">RS Puri Medika</div>`)[0];
+                popup_14b4e408c0a30b77fb83272d30206083.setContent(html_bde7b3b18bb0637591c4714e7ce064e4);
+            
+        
+
+        marker_2b384a81830b4b0a9f0081d96b131d45.bindPopup(popup_14b4e408c0a30b77fb83272d30206083)
+        ;
+
+        
+    
+    
+            var marker_4ac7e9fa3670d6146e2fff2b743771e6 = L.marker(
+                [-6.117101470267738, 106.88169901206858],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3e1b3c00cc06855abe24238165cd0662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa6ea3fd2ddc1e8d11fa2ec064f29092 = $(`<div id="html_fa6ea3fd2ddc1e8d11fa2ec064f29092" style="width: 100.0%; height: 100.0%;">RSIA SANTO YUSUF</div>`)[0];
+                popup_3e1b3c00cc06855abe24238165cd0662.setContent(html_fa6ea3fd2ddc1e8d11fa2ec064f29092);
+            
+        
+
+        marker_4ac7e9fa3670d6146e2fff2b743771e6.bindPopup(popup_3e1b3c00cc06855abe24238165cd0662)
+        ;
+
+        
+    
+    
+            var marker_d52107ebbfdbea1a33711e074e02116b = L.marker(
+                [-6.236712300000001, 106.81130694999999],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_715ff3fc251f7e518723ac2def93f0eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b24a2fb42ec971bc8c294d018f19274b = $(`<div id="html_b24a2fb42ec971bc8c294d018f19274b" style="width: 100.0%; height: 100.0%;">RS Khusus THT- Bedah Ciranjang</div>`)[0];
+                popup_715ff3fc251f7e518723ac2def93f0eb.setContent(html_b24a2fb42ec971bc8c294d018f19274b);
+            
+        
+
+        marker_d52107ebbfdbea1a33711e074e02116b.bindPopup(popup_715ff3fc251f7e518723ac2def93f0eb)
+        ;
+
+        
+    
+    
+            var marker_5823be3c6db721b8b179f149ee9baf48 = L.marker(
+                [-6.236483416514242, 106.81586186902348],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_fb48a6b4443de6b3411bfd66c9b7bead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3cbf5ebe815b1a06e5fdc3eafc05ccb = $(`<div id="html_e3cbf5ebe815b1a06e5fdc3eafc05ccb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Ibu dan Anak Panti Nugraha</div>`)[0];
+                popup_fb48a6b4443de6b3411bfd66c9b7bead.setContent(html_e3cbf5ebe815b1a06e5fdc3eafc05ccb);
+            
+        
+
+        marker_5823be3c6db721b8b179f149ee9baf48.bindPopup(popup_fb48a6b4443de6b3411bfd66c9b7bead)
+        ;
+
+        
+    
+    
+            var marker_5318c2776cbf3d675481997e522d7282 = L.marker(
+                [-6.247979546320882, 106.80092224591762],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_4b817adb92dc4497b31157287dbebb47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f11d2ace7fc665a905d489679b10ea = $(`<div id="html_d4f11d2ace7fc665a905d489679b10ea" style="width: 100.0%; height: 100.0%;">RSIA Asih</div>`)[0];
+                popup_4b817adb92dc4497b31157287dbebb47.setContent(html_d4f11d2ace7fc665a905d489679b10ea);
+            
+        
+
+        marker_5318c2776cbf3d675481997e522d7282.bindPopup(popup_4b817adb92dc4497b31157287dbebb47)
+        ;
+
+        
+    
+    
+            var marker_4f64ac606b2065e0f6118a96979027e7 = L.marker(
+                [-6.166736081178787, 106.78538529961912],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_13519e9c705c856b56f5e51331c10968 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569b021dfe797e5337091445ff627345 = $(`<div id="html_569b021dfe797e5337091445ff627345" style="width: 100.0%; height: 100.0%;">Rumah Sakit Royal Taruma</div>`)[0];
+                popup_13519e9c705c856b56f5e51331c10968.setContent(html_569b021dfe797e5337091445ff627345);
+            
+        
+
+        marker_4f64ac606b2065e0f6118a96979027e7.bindPopup(popup_13519e9c705c856b56f5e51331c10968)
+        ;
+
+        
+    
+    
+            var marker_ca43a3c798bb934904baa290d3c1788c = L.marker(
+                [-6.192689986058821, 106.90270346199982],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0c6834d1c0d593892ca63c20dca0d929 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_151eecc0f0d8629ef6da38471b4d2cce = $(`<div id="html_151eecc0f0d8629ef6da38471b4d2cce" style="width: 100.0%; height: 100.0%;">Rumah Sakit Antam Medika</div>`)[0];
+                popup_0c6834d1c0d593892ca63c20dca0d929.setContent(html_151eecc0f0d8629ef6da38471b4d2cce);
+            
+        
+
+        marker_ca43a3c798bb934904baa290d3c1788c.bindPopup(popup_0c6834d1c0d593892ca63c20dca0d929)
+        ;
+
+        
+    
+    
+            var marker_d9f9152256f65a40586fd461d5391aa5 = L.marker(
+                [-6.162809835752288, 106.7883913074074],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_27f7d25bafb9427c88020cd6d3f2b8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baba0bf9c696770c7dbdc1fdb2aed130 = $(`<div id="html_baba0bf9c696770c7dbdc1fdb2aed130" style="width: 100.0%; height: 100.0%;">Rumah Sakit Jiwa Dr Soeharto Heerdjan</div>`)[0];
+                popup_27f7d25bafb9427c88020cd6d3f2b8b9.setContent(html_baba0bf9c696770c7dbdc1fdb2aed130);
+            
+        
+
+        marker_d9f9152256f65a40586fd461d5391aa5.bindPopup(popup_27f7d25bafb9427c88020cd6d3f2b8b9)
+        ;
+
+        
+    
+    
+            var marker_e1ba24643d88d018242da4f6e8ef994a = L.marker(
+                [-6.108924197430735, 106.90008157415257],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ccb087e11a678716b9f8039a25604c1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19504c66d16ae85448003f7b02e5ecd9 = $(`<div id="html_19504c66d16ae85448003f7b02e5ecd9" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Daerah (RSUD) Koja</div>`)[0];
+                popup_ccb087e11a678716b9f8039a25604c1f.setContent(html_19504c66d16ae85448003f7b02e5ecd9);
+            
+        
+
+        marker_e1ba24643d88d018242da4f6e8ef994a.bindPopup(popup_ccb087e11a678716b9f8039a25604c1f)
+        ;
+
+        
+    
+    
+            var marker_3b2b1436a56809d3dfcca23ccf56219c = L.marker(
+                [-6.252535731123103, 106.78604091167641],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_fb07eafb5100a78d5f407300a612f8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e38ac16be9c70feffbf7b73b42b2a06 = $(`<div id="html_1e38ac16be9c70feffbf7b73b42b2a06" style="width: 100.0%; height: 100.0%;">SD Negeri Kebayoran Lama Selatan 20 Pagi</div>`)[0];
+                popup_fb07eafb5100a78d5f407300a612f8d4.setContent(html_1e38ac16be9c70feffbf7b73b42b2a06);
+            
+        
+
+        marker_3b2b1436a56809d3dfcca23ccf56219c.bindPopup(popup_fb07eafb5100a78d5f407300a612f8d4)
+        ;
+
+        
+    
+    
+            var marker_c0887abc6bef28c831c5c1fd304fa6e5 = L.marker(
+                [-6.116114978637815, 106.88893345174014],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9e696cae1ded211a7258dc66f0bf8473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f7a6d9a109749cda0e369909f2fdad = $(`<div id="html_52f7a6d9a109749cda0e369909f2fdad" style="width: 100.0%; height: 100.0%;">RSUD KECAMATAN TANJUNG PRIOK</div>`)[0];
+                popup_9e696cae1ded211a7258dc66f0bf8473.setContent(html_52f7a6d9a109749cda0e369909f2fdad);
+            
+        
+
+        marker_c0887abc6bef28c831c5c1fd304fa6e5.bindPopup(popup_9e696cae1ded211a7258dc66f0bf8473)
+        ;
+
+        
+    
+    
+            var marker_5eccba3153916cb3e3e615728b87be9a = L.marker(
+                [-6.2439196427337835, 106.79074447544228],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_72889fd431a015832c41d658505544d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66d2809950ea3ef2d810e7b4c6a68ec7 = $(`<div id="html_66d2809950ea3ef2d810e7b4c6a68ec7" style="width: 100.0%; height: 100.0%;">Rumah Sakit Gandaria</div>`)[0];
+                popup_72889fd431a015832c41d658505544d7.setContent(html_66d2809950ea3ef2d810e7b4c6a68ec7);
+            
+        
+
+        marker_5eccba3153916cb3e3e615728b87be9a.bindPopup(popup_72889fd431a015832c41d658505544d7)
+        ;
+
+        
+    
+    
+            var marker_9d9c4ba46099c698e037811c6626ae30 = L.marker(
+                [-6.2416185563434325, 106.78712948825262],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_bbfffe10cdebf8660c5302f991c7fd60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54d9b5a829c6a527af0c18302a9d28d2 = $(`<div id="html_54d9b5a829c6a527af0c18302a9d28d2" style="width: 100.0%; height: 100.0%;">RS Muhammadiyah Taman Puring</div>`)[0];
+                popup_bbfffe10cdebf8660c5302f991c7fd60.setContent(html_54d9b5a829c6a527af0c18302a9d28d2);
+            
+        
+
+        marker_9d9c4ba46099c698e037811c6626ae30.bindPopup(popup_bbfffe10cdebf8660c5302f991c7fd60)
+        ;
+
+        
+    
+    
+            var marker_3ff84d90b5d8cbd6eeb90e0c31e3ca9b = L.marker(
+                [-6.167997346414572, 106.7981485087627],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1233a0925d02d2c15d00f27200fc71f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0bb75ba223db6649ffb434c5fb2d4d1 = $(`<div id="html_f0bb75ba223db6649ffb434c5fb2d4d1" style="width: 100.0%; height: 100.0%;">Rumah Sakit Sumber Waras</div>`)[0];
+                popup_1233a0925d02d2c15d00f27200fc71f2.setContent(html_f0bb75ba223db6649ffb434c5fb2d4d1);
+            
+        
+
+        marker_3ff84d90b5d8cbd6eeb90e0c31e3ca9b.bindPopup(popup_1233a0925d02d2c15d00f27200fc71f2)
+        ;
+
+        
+    
+    
+            var marker_976409c2555a732fcbefd44cedd62252 = L.marker(
+                [-6.129082700000001, 106.9065008],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c93566205461051ca665079c701bab30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b33b8f97039ce52bce3c0dc29013eb6 = $(`<div id="html_4b33b8f97039ce52bce3c0dc29013eb6" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mulyasari</div>`)[0];
+                popup_c93566205461051ca665079c701bab30.setContent(html_4b33b8f97039ce52bce3c0dc29013eb6);
+            
+        
+
+        marker_976409c2555a732fcbefd44cedd62252.bindPopup(popup_c93566205461051ca665079c701bab30)
+        ;
+
+        
+    
+    
+            var marker_594b8c31f8d60d0b54339f2c5f4caa68 = L.marker(
+                [-6.127439150000001, 106.90716675000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_44371e33ae78ebde09efa524e75413ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e740ad4f9e3308c162bc4bace8b5301 = $(`<div id="html_0e740ad4f9e3308c162bc4bace8b5301" style="width: 100.0%; height: 100.0%;">RSUD Tugu Koja Jakarta</div>`)[0];
+                popup_44371e33ae78ebde09efa524e75413ae.setContent(html_0e740ad4f9e3308c162bc4bace8b5301);
+            
+        
+
+        marker_594b8c31f8d60d0b54339f2c5f4caa68.bindPopup(popup_44371e33ae78ebde09efa524e75413ae)
+        ;
+
+        
+    
+    
+            var marker_31a7e72b89f5d8f5e86670306e6f88f2 = L.marker(
+                [-6.25513125, 106.77773910000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1d786e4f26a2e166a4144be5fd5a8fec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a66f24793c72d22b7712c5052cc77375 = $(`<div id="html_a66f24793c72d22b7712c5052cc77375" style="width: 100.0%; height: 100.0%;">Rumah Sakit Yadika</div>`)[0];
+                popup_1d786e4f26a2e166a4144be5fd5a8fec.setContent(html_a66f24793c72d22b7712c5052cc77375);
+            
+        
+
+        marker_31a7e72b89f5d8f5e86670306e6f88f2.bindPopup(popup_1d786e4f26a2e166a4144be5fd5a8fec)
+        ;
+
+        
+    
+    
+            var marker_324bd7e51e90ee90546190750222c966 = L.marker(
+                [-6.267389967369353, 106.76671600881383],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_55b0207c103b52ae77da8110a0e0cd80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_834e0419f581f4f4deba29bb656bab39 = $(`<div id="html_834e0419f581f4f4deba29bb656bab39" style="width: 100.0%; height: 100.0%;">Rumah Sakit Dr. Suyoto</div>`)[0];
+                popup_55b0207c103b52ae77da8110a0e0cd80.setContent(html_834e0419f581f4f4deba29bb656bab39);
+            
+        
+
+        marker_324bd7e51e90ee90546190750222c966.bindPopup(popup_55b0207c103b52ae77da8110a0e0cd80)
+        ;
+
+        
+    
+    
+            var marker_7f2b3883c7252b90930b4acff4f15f10 = L.marker(
+                [-6.124923294869942, 106.91783802326331],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_68fbf5f0fec35b311f19d4cacadf0da4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05fb50c28417ba0fc12450d7d6bfaef4 = $(`<div id="html_05fb50c28417ba0fc12450d7d6bfaef4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pelabuhan Jakarta</div>`)[0];
+                popup_68fbf5f0fec35b311f19d4cacadf0da4.setContent(html_05fb50c28417ba0fc12450d7d6bfaef4);
+            
+        
+
+        marker_7f2b3883c7252b90930b4acff4f15f10.bindPopup(popup_68fbf5f0fec35b311f19d4cacadf0da4)
+        ;
+
+        
+    
+    
+            var marker_60f2722361c8991a31a7a77179a69168 = L.marker(
+                [-6.129904207822226, 106.86242503090644],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e26fa03d28bf5ef40d633de911a9f585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06143cf04de397d98e6765320ee3f09d = $(`<div id="html_06143cf04de397d98e6765320ee3f09d" style="width: 100.0%; height: 100.0%;">RSPI Prof. Dr. Sulianti Saroso</div>`)[0];
+                popup_e26fa03d28bf5ef40d633de911a9f585.setContent(html_06143cf04de397d98e6765320ee3f09d);
+            
+        
+
+        marker_60f2722361c8991a31a7a77179a69168.bindPopup(popup_e26fa03d28bf5ef40d633de911a9f585)
+        ;
+
+        
+    
+    
+            var marker_9905fbbdd868ea3e397b4bced1da8ebe = L.marker(
+                [-6.238342633641754, 106.76977622556029],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2632cb2f52e2ef78b8a9aed5f75f8deb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37bae054334dd1f46ad5f9cc2d4fa599 = $(`<div id="html_37bae054334dd1f46ad5f9cc2d4fa599" style="width: 100.0%; height: 100.0%;">Kartini Hospital</div>`)[0];
+                popup_2632cb2f52e2ef78b8a9aed5f75f8deb.setContent(html_37bae054334dd1f46ad5f9cc2d4fa599);
+            
+        
+
+        marker_9905fbbdd868ea3e397b4bced1da8ebe.bindPopup(popup_2632cb2f52e2ef78b8a9aed5f75f8deb)
+        ;
+
+        
+    
+    
+            var marker_0b338063a6dd0f092a7c9042ff41ab4f = L.marker(
+                [-6.2369167860799, 106.75171449325026],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_569c2b64c88c700a2ede1af88692b249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3768207c60b8d945448373655eb729a = $(`<div id="html_e3768207c60b8d945448373655eb729a" style="width: 100.0%; height: 100.0%;">Rumah Sakit Petukangan</div>`)[0];
+                popup_569c2b64c88c700a2ede1af88692b249.setContent(html_e3768207c60b8d945448373655eb729a);
+            
+        
+
+        marker_0b338063a6dd0f092a7c9042ff41ab4f.bindPopup(popup_569c2b64c88c700a2ede1af88692b249)
+        ;
+
+        
+    
+    
+            var marker_52c2c034f7ac62038b8dc8d310f45064 = L.marker(
+                [-6.182777392772872, 106.79107915007144],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_f57329baff0c15fcff6fa0b208d22b7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b9cfc74134d682995b614ca725b728f = $(`<div id="html_2b9cfc74134d682995b614ca725b728f" style="width: 100.0%; height: 100.0%;">Rumah Sakit COVID-19 Tanjung Duren</div>`)[0];
+                popup_f57329baff0c15fcff6fa0b208d22b7f.setContent(html_2b9cfc74134d682995b614ca725b728f);
+            
+        
+
+        marker_52c2c034f7ac62038b8dc8d310f45064.bindPopup(popup_f57329baff0c15fcff6fa0b208d22b7f)
+        ;
+
+        
+    
+    
+            var marker_6e265347afe3f9e164ecffc96b8a3513 = L.marker(
+                [-6.286415877830673, 106.77033722147536],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9e5d8264fc432036c326dc4bd2f09365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec7af98f953eb213c2db3da3d138a1d = $(`<div id="html_6ec7af98f953eb213c2db3da3d138a1d" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bhayangkara</div>`)[0];
+                popup_9e5d8264fc432036c326dc4bd2f09365.setContent(html_6ec7af98f953eb213c2db3da3d138a1d);
+            
+        
+
+        marker_6e265347afe3f9e164ecffc96b8a3513.bindPopup(popup_9e5d8264fc432036c326dc4bd2f09365)
+        ;
+
+        
+    
+    
+            var marker_5c8118a4e8905b12778f42f4a529bb85 = L.marker(
+                [-6.258062495729297, 106.75680316487295],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e60ee26099772c048b5e84249bb17b4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aedadd3f3b0c336a7b3e5d1ab7c4600 = $(`<div id="html_2aedadd3f3b0c336a7b3e5d1ab7c4600" style="width: 100.0%; height: 100.0%;">RSU Kecamatan Pesanggrahan</div>`)[0];
+                popup_e60ee26099772c048b5e84249bb17b4a.setContent(html_2aedadd3f3b0c336a7b3e5d1ab7c4600);
+            
+        
+
+        marker_5c8118a4e8905b12778f42f4a529bb85.bindPopup(popup_e60ee26099772c048b5e84249bb17b4a)
+        ;
+
+        
+    
+    
+            var marker_28c4f60bab767f2d3effc2f53aa59595 = L.marker(
+                [-6.127724074367576, 106.89049039270088],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_edffbe26f11d4cce7a19e48d5991ff71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0de97c617788699d8cd08fe58ab2b3f4 = $(`<div id="html_0de97c617788699d8cd08fe58ab2b3f4" style="width: 100.0%; height: 100.0%;">Toko Obat</div>`)[0];
+                popup_edffbe26f11d4cce7a19e48d5991ff71.setContent(html_0de97c617788699d8cd08fe58ab2b3f4);
+            
+        
+
+        marker_28c4f60bab767f2d3effc2f53aa59595.bindPopup(popup_edffbe26f11d4cce7a19e48d5991ff71)
+        ;
+
+        
+    
+    
+            var marker_d57dc2ca79e46da9e2aaf18516a91bb3 = L.marker(
+                [-6.132808230468639, 106.8402926138075],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9ec51c60d8a26d45d5d24a8d139486d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52564d6287c6a621944bc3789975b204 = $(`<div id="html_52564d6287c6a621944bc3789975b204" style="width: 100.0%; height: 100.0%;">Rumah Sakit Umum Pademangan</div>`)[0];
+                popup_9ec51c60d8a26d45d5d24a8d139486d1.setContent(html_52564d6287c6a621944bc3789975b204);
+            
+        
+
+        marker_d57dc2ca79e46da9e2aaf18516a91bb3.bindPopup(popup_9ec51c60d8a26d45d5d24a8d139486d1)
+        ;
+
+        
+    
+    
+            var marker_45cb5c488bb025443f07972dea4139b0 = L.marker(
+                [-6.136253726587964, 106.79932229544474],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2ed1880e29189cd9d8367f5d2649a538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ae24d9f042a4ca41d31293dd591a0c = $(`<div id="html_a1ae24d9f042a4ca41d31293dd591a0c" style="width: 100.0%; height: 100.0%;">RS Husada</div>`)[0];
+                popup_2ed1880e29189cd9d8367f5d2649a538.setContent(html_a1ae24d9f042a4ca41d31293dd591a0c);
+            
+        
+
+        marker_45cb5c488bb025443f07972dea4139b0.bindPopup(popup_2ed1880e29189cd9d8367f5d2649a538)
+        ;
+
+        
+    
+    
+            var marker_853da8b6d40455d8df32463a2fece2c4 = L.marker(
+                [-6.126338150854412, 106.79302771345544],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_bce31d48495e5d6fdda7200f200e494c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32edab504e141043bac1e6d0b1d68343 = $(`<div id="html_32edab504e141043bac1e6d0b1d68343" style="width: 100.0%; height: 100.0%;">Rumah Sakit Atma Jaya</div>`)[0];
+                popup_bce31d48495e5d6fdda7200f200e494c.setContent(html_32edab504e141043bac1e6d0b1d68343);
+            
+        
+
+        marker_853da8b6d40455d8df32463a2fece2c4.bindPopup(popup_bce31d48495e5d6fdda7200f200e494c)
+        ;
+
+        
+    
+    
+            var marker_ebffb095f133a177c2086afad6605343 = L.marker(
+                [-6.1385261, 106.78380895000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c8e5e4ce3f93f8ef6f4c920b62d382a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1453eaeaaba1cfbbc334b44684cc97a = $(`<div id="html_b1453eaeaaba1cfbbc334b44684cc97a" style="width: 100.0%; height: 100.0%;">Rumah Sakit Duta Indah</div>`)[0];
+                popup_c8e5e4ce3f93f8ef6f4c920b62d382a2.setContent(html_b1453eaeaaba1cfbbc334b44684cc97a);
+            
+        
+
+        marker_ebffb095f133a177c2086afad6605343.bindPopup(popup_c8e5e4ce3f93f8ef6f4c920b62d382a2)
+        ;
+
+        
+    
+    
+            var marker_1f6559514599c47ca7ca196fb7872af9 = L.marker(
+                [-6.133375270452494, 106.79035711896186],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_92b7ff75cc4d1d1d9e8f2c91ebd77b65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95199e61839c36e42911e5062a8d545c = $(`<div id="html_95199e61839c36e42911e5062a8d545c" style="width: 100.0%; height: 100.0%;">RSIA Family</div>`)[0];
+                popup_92b7ff75cc4d1d1d9e8f2c91ebd77b65.setContent(html_95199e61839c36e42911e5062a8d545c);
+            
+        
+
+        marker_1f6559514599c47ca7ca196fb7872af9.bindPopup(popup_92b7ff75cc4d1d1d9e8f2c91ebd77b65)
+        ;
+
+        
+    
+    
+            var marker_efd0d1441cb8c7b385bf53640d9db553 = L.marker(
+                [-6.139780766139613, 106.92075346529121],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_66e7b1811aa04bf4c200571b2abc32a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cbc3757f35d896878d8fffd267f482d = $(`<div id="html_0cbc3757f35d896878d8fffd267f482d" style="width: 100.0%; height: 100.0%;">Rumah Sakit Islam Jakarta</div>`)[0];
+                popup_66e7b1811aa04bf4c200571b2abc32a2.setContent(html_0cbc3757f35d896878d8fffd267f482d);
+            
+        
+
+        marker_efd0d1441cb8c7b385bf53640d9db553.bindPopup(popup_66e7b1811aa04bf4c200571b2abc32a2)
+        ;
+
+        
+    
+    
+            var marker_cedb73141e81b73e63de43755569e26b = L.marker(
+                [-6.1561381000000015, 106.92305285000002],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_61fdabe69cc8388b7c9d4b7b98c8098e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beb08afb47a7057d8c8f32daf08b906e = $(`<div id="html_beb08afb47a7057d8c8f32daf08b906e" style="width: 100.0%; height: 100.0%;">Rumah Sakit Firdaus</div>`)[0];
+                popup_61fdabe69cc8388b7c9d4b7b98c8098e.setContent(html_beb08afb47a7057d8c8f32daf08b906e);
+            
+        
+
+        marker_cedb73141e81b73e63de43755569e26b.bindPopup(popup_61fdabe69cc8388b7c9d4b7b98c8098e)
+        ;
+
+        
+    
+    
+            var marker_36131cd8fc70b18987ed8c81010a327d = L.marker(
+                [-6.145548394211823, 106.86136792197031],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_00e4d2a11ebfc76687169e8c29662b5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c2b7bbfff73eb67fa748f633bac8532 = $(`<div id="html_3c2b7bbfff73eb67fa748f633bac8532" style="width: 100.0%; height: 100.0%;">Rumah Sakit Hermina Podomoro</div>`)[0];
+                popup_00e4d2a11ebfc76687169e8c29662b5d.setContent(html_3c2b7bbfff73eb67fa748f633bac8532);
+            
+        
+
+        marker_36131cd8fc70b18987ed8c81010a327d.bindPopup(popup_00e4d2a11ebfc76687169e8c29662b5d)
+        ;
+
+        
+    
+    
+            var marker_74b585b82b54b9ac5d13796574bb598a = L.marker(
+                [-6.13944855, 106.8654705],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2cb22db01d6ff7873f084ca1e2df6453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6df7daf2dad6bbe306920969463dc1d9 = $(`<div id="html_6df7daf2dad6bbe306920969463dc1d9" style="width: 100.0%; height: 100.0%;">Rumah Sakit Royal Progress</div>`)[0];
+                popup_2cb22db01d6ff7873f084ca1e2df6453.setContent(html_6df7daf2dad6bbe306920969463dc1d9);
+            
+        
+
+        marker_74b585b82b54b9ac5d13796574bb598a.bindPopup(popup_2cb22db01d6ff7873f084ca1e2df6453)
+        ;
+
+        
+    
+    
+            var marker_19c540c114c0b051871c9604105e0da4 = L.marker(
+                [-6.258814877707875, 106.76492700526217],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0fb6d29a27046eed08540deb5631910f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73bafcffef176f4889897a6e6dcee0d8 = $(`<div id="html_73bafcffef176f4889897a6e6dcee0d8" style="width: 100.0%; height: 100.0%;">Rumah Sakit Gigi Dan Mulut Fakultas Kedokteran Gigi Universitas Prof. Dr. Moestopo Bintaro</div>`)[0];
+                popup_0fb6d29a27046eed08540deb5631910f.setContent(html_73bafcffef176f4889897a6e6dcee0d8);
+            
+        
+
+        marker_19c540c114c0b051871c9604105e0da4.bindPopup(popup_0fb6d29a27046eed08540deb5631910f)
+        ;
+
+        
+    
+    
+            var marker_4c293719533209237142f9947341d348 = L.marker(
+                [-6.2657129704263825, 106.86647744062745],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5ea0abe21b4397d5784504af1c006477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efa2301b3114bcdb462b8f76e914dc3b = $(`<div id="html_efa2301b3114bcdb462b8f76e914dc3b" style="width: 100.0%; height: 100.0%;">RSIA Restu Kasih</div>`)[0];
+                popup_5ea0abe21b4397d5784504af1c006477.setContent(html_efa2301b3114bcdb462b8f76e914dc3b);
+            
+        
+
+        marker_4c293719533209237142f9947341d348.bindPopup(popup_5ea0abe21b4397d5784504af1c006477)
+        ;
+
+        
+    
+    
+            var marker_287f43430b8c32ce16bc28faf52c06aa = L.marker(
+                [-6.257478203527271, 106.89219870510694],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_ffabeb639fea9384ed7e514fe375813f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b8f659cfce676841ac5a596f5b669f9 = $(`<div id="html_5b8f659cfce676841ac5a596f5b669f9" style="width: 100.0%; height: 100.0%;">RS Angkatan Udara Dr. Esnawan Antariksa</div>`)[0];
+                popup_ffabeb639fea9384ed7e514fe375813f.setContent(html_5b8f659cfce676841ac5a596f5b669f9);
+            
+        
+
+        marker_287f43430b8c32ce16bc28faf52c06aa.bindPopup(popup_ffabeb639fea9384ed7e514fe375813f)
+        ;
+
+        
+    
+    
+            var marker_c017aa961f3694f3ad98c6481d70f77f = L.marker(
+                [-6.196101977209615, 106.83635443495014],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_0a8f7f0fbf953fbfcf16d28c4c6247e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93fdf592a0b0416dd12d508dc9750de = $(`<div id="html_f93fdf592a0b0416dd12d508dc9750de" style="width: 100.0%; height: 100.0%;">RSIA Bunda Jakarta</div>`)[0];
+                popup_0a8f7f0fbf953fbfcf16d28c4c6247e6.setContent(html_f93fdf592a0b0416dd12d508dc9750de);
+            
+        
+
+        marker_c017aa961f3694f3ad98c6481d70f77f.bindPopup(popup_0a8f7f0fbf953fbfcf16d28c4c6247e6)
+        ;
+
+        
+    
+    
+            var marker_34a7c99858456df23501db02eae05793 = L.marker(
+                [-6.1429647627616, 106.73488677082074],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_3a933bb78d4eddbc6a29a23ca3882912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04b9ab22988e5cca853563cab750a4bd = $(`<div id="html_04b9ab22988e5cca853563cab750a4bd" style="width: 100.0%; height: 100.0%;">RSUD Cengkareng</div>`)[0];
+                popup_3a933bb78d4eddbc6a29a23ca3882912.setContent(html_04b9ab22988e5cca853563cab750a4bd);
+            
+        
+
+        marker_34a7c99858456df23501db02eae05793.bindPopup(popup_3a933bb78d4eddbc6a29a23ca3882912)
+        ;
+
+        
+    
+    
+            var marker_203e306d0995c4752caf5bf86b33dc55 = L.marker(
+                [-6.289849530349809, 106.8892233767687],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1be549bbb61140db28655107bfc5bf3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04b94878fdebab0dab33e44a65ed71e9 = $(`<div id="html_04b94878fdebab0dab33e44a65ed71e9" style="width: 100.0%; height: 100.0%;">RS Haji</div>`)[0];
+                popup_1be549bbb61140db28655107bfc5bf3c.setContent(html_04b94878fdebab0dab33e44a65ed71e9);
+            
+        
+
+        marker_203e306d0995c4752caf5bf86b33dc55.bindPopup(popup_1be549bbb61140db28655107bfc5bf3c)
+        ;
+
+        
+    
+    
+            var marker_5232ea5f86adfd6a09745bf337ef7ff8 = L.marker(
+                [-6.147513457204428, 106.82951079151835],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_13aa2b454fc689c7c8575afbfbee42f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_324378759ef00f3ec4e7cd239694d07e = $(`<div id="html_324378759ef00f3ec4e7cd239694d07e" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_13aa2b454fc689c7c8575afbfbee42f2.setContent(html_324378759ef00f3ec4e7cd239694d07e);
+            
+        
+
+        marker_5232ea5f86adfd6a09745bf337ef7ff8.bindPopup(popup_13aa2b454fc689c7c8575afbfbee42f2)
+        ;
+
+        
+    
+    
+            var marker_2da1e3f6d32edf5e1531fe21e4468c21 = L.marker(
+                [-6.152115326898333, 106.85859756152507],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b4914fd6804b4751964b7e8bd94a27d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_885be6eedafb8e845c185d95e678695e = $(`<div id="html_885be6eedafb8e845c185d95e678695e" style="width: 100.0%; height: 100.0%;">RS Mitra Kemayoran</div>`)[0];
+                popup_b4914fd6804b4751964b7e8bd94a27d4.setContent(html_885be6eedafb8e845c185d95e678695e);
+            
+        
+
+        marker_2da1e3f6d32edf5e1531fe21e4468c21.bindPopup(popup_b4914fd6804b4751964b7e8bd94a27d4)
+        ;
+
+        
+    
+    
+            var marker_dae150d0828f24928709c0e0cf34d9db = L.marker(
+                [-6.181978893778581, 106.89119241784543],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_391f4094d164af2f39c0fabf5d9b2922 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4fe2002149d6cd6f486d644e475dd2e = $(`<div id="html_d4fe2002149d6cd6f486d644e475dd2e" style="width: 100.0%; height: 100.0%;">Rumah Sakit Columbia Asia</div>`)[0];
+                popup_391f4094d164af2f39c0fabf5d9b2922.setContent(html_d4fe2002149d6cd6f486d644e475dd2e);
+            
+        
+
+        marker_dae150d0828f24928709c0e0cf34d9db.bindPopup(popup_391f4094d164af2f39c0fabf5d9b2922)
+        ;
+
+        
+    
+    
+            var marker_13b7b93ab9cebc3662b47e74f4d1c5af = L.marker(
+                [-6.1061826701859125, 106.739214708881],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_6eee3566c49d7b64e2305e137bc7a150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd6e43fc30ab5cbe8d8798f29548647a = $(`<div id="html_fd6e43fc30ab5cbe8d8798f29548647a" style="width: 100.0%; height: 100.0%;">Tzu Chi Hospital</div>`)[0];
+                popup_6eee3566c49d7b64e2305e137bc7a150.setContent(html_fd6e43fc30ab5cbe8d8798f29548647a);
+            
+        
+
+        marker_13b7b93ab9cebc3662b47e74f4d1c5af.bindPopup(popup_6eee3566c49d7b64e2305e137bc7a150)
+        ;
+
+        
+    
+    
+            var marker_91af3595a36bca6ce6262e09bd4e9db5 = L.marker(
+                [-6.17994395498455, 106.90375015153302],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_581e14d647e04c93a0b47f13a4b345da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af2e24d5c98743b6cdd46b1bbc3f5eb = $(`<div id="html_5af2e24d5c98743b6cdd46b1bbc3f5eb" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mediros</div>`)[0];
+                popup_581e14d647e04c93a0b47f13a4b345da.setContent(html_5af2e24d5c98743b6cdd46b1bbc3f5eb);
+            
+        
+
+        marker_91af3595a36bca6ce6262e09bd4e9db5.bindPopup(popup_581e14d647e04c93a0b47f13a4b345da)
+        ;
+
+        
+    
+    
+            var marker_c3dcfe159d6dca0634b370b82d0041b9 = L.marker(
+                [-6.239855224802314, 106.83366250690254],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_9b1bd4180924a0bb430ac49a962fea6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f8335ef9d788cc55745577eac9ddfec = $(`<div id="html_2f8335ef9d788cc55745577eac9ddfec" style="width: 100.0%; height: 100.0%;">Rumah Sakit Medistra</div>`)[0];
+                popup_9b1bd4180924a0bb430ac49a962fea6d.setContent(html_2f8335ef9d788cc55745577eac9ddfec);
+            
+        
+
+        marker_c3dcfe159d6dca0634b370b82d0041b9.bindPopup(popup_9b1bd4180924a0bb430ac49a962fea6d)
+        ;
+
+        
+    
+    
+            var marker_38a6a2767345c446a181cb14a6fe6641 = L.marker(
+                [-6.283667182843462, 106.78164015667768],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_524c1455501eae8acadf84d37da92b04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9210fc263486adf816dc50bdb2d1389 = $(`<div id="html_d9210fc263486adf816dc50bdb2d1389" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pondok Indah</div>`)[0];
+                popup_524c1455501eae8acadf84d37da92b04.setContent(html_d9210fc263486adf816dc50bdb2d1389);
+            
+        
+
+        marker_38a6a2767345c446a181cb14a6fe6641.bindPopup(popup_524c1455501eae8acadf84d37da92b04)
+        ;
+
+        
+    
+    
+            var marker_ff1366d0b6eba086d3954365a5041382 = L.marker(
+                [-6.195993997112977, 106.88640788277715],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_474226bb210888dcd8392c6d1caaa4dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_697f8d2bd951121a4cb3876882356239 = $(`<div id="html_697f8d2bd951121a4cb3876882356239" style="width: 100.0%; height: 100.0%;">Rumah Sakit Dharma Nugraha</div>`)[0];
+                popup_474226bb210888dcd8392c6d1caaa4dc.setContent(html_697f8d2bd951121a4cb3876882356239);
+            
+        
+
+        marker_ff1366d0b6eba086d3954365a5041382.bindPopup(popup_474226bb210888dcd8392c6d1caaa4dc)
+        ;
+
+        
+    
+    
+            var marker_22aeea80bc32546ab0048e751f7df745 = L.marker(
+                [-6.294071560101589, 106.8198798642964],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c67642e540f1a58e36b2dd0104d63756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1587655e0048caad66ea0ea81364b6e8 = $(`<div id="html_1587655e0048caad66ea0ea81364b6e8" style="width: 100.0%; height: 100.0%;">RSUD Pasar Minggu Jakarta</div>`)[0];
+                popup_c67642e540f1a58e36b2dd0104d63756.setContent(html_1587655e0048caad66ea0ea81364b6e8);
+            
+        
+
+        marker_22aeea80bc32546ab0048e751f7df745.bindPopup(popup_c67642e540f1a58e36b2dd0104d63756)
+        ;
+
+        
+    
+    
+            var marker_f29a0039ae788e08445ca5ded3bdc3d9 = L.marker(
+                [-6.191053355574124, 106.76382634080785],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_34ebef46d605df480bfd1c20a9356424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac89e37ed5a33ab9010d496a2e789782 = $(`<div id="html_ac89e37ed5a33ab9010d496a2e789782" style="width: 100.0%; height: 100.0%;">Rumah Sakit Siloam</div>`)[0];
+                popup_34ebef46d605df480bfd1c20a9356424.setContent(html_ac89e37ed5a33ab9010d496a2e789782);
+            
+        
+
+        marker_f29a0039ae788e08445ca5ded3bdc3d9.bindPopup(popup_34ebef46d605df480bfd1c20a9356424)
+        ;
+
+        
+    
+    
+            var marker_8016d2a6b38074ac5b77a94d87f62b6e = L.marker(
+                [-6.13888100608304, 106.8615391967345],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_51e9287fff9b948acc6a852ef6303032 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9374740e4b1be783b98e0356e104a718 = $(`<div id="html_9374740e4b1be783b98e0356e104a718" style="width: 100.0%; height: 100.0%;">Rumah Sakit Satya Negara</div>`)[0];
+                popup_51e9287fff9b948acc6a852ef6303032.setContent(html_9374740e4b1be783b98e0356e104a718);
+            
+        
+
+        marker_8016d2a6b38074ac5b77a94d87f62b6e.bindPopup(popup_51e9287fff9b948acc6a852ef6303032)
+        ;
+
+        
+    
+    
+            var marker_f1a18e82c6859f69d6be744122ed89ee = L.marker(
+                [-6.2728611799896745, 106.83912054897473],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_af05f40fadc28786e20ea3cef60c9def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c659719a5356a9566507cecb71091596 = $(`<div id="html_c659719a5356a9566507cecb71091596" style="width: 100.0%; height: 100.0%;">RS Siaga Raya</div>`)[0];
+                popup_af05f40fadc28786e20ea3cef60c9def.setContent(html_c659719a5356a9566507cecb71091596);
+            
+        
+
+        marker_f1a18e82c6859f69d6be744122ed89ee.bindPopup(popup_af05f40fadc28786e20ea3cef60c9def)
+        ;
+
+        
+    
+    
+            var marker_89d0ca5d9e600ca2dff8894789087287 = L.marker(
+                [-6.2465836144656945, 106.87041897152098],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_52f2a3d835a962219cf1017ae023b73b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7b4fb1ceb56bcf8f7d60f21a1c13b2 = $(`<div id="html_9e7b4fb1ceb56bcf8f7d60f21a1c13b2" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pusat Otak Nasional</div>`)[0];
+                popup_52f2a3d835a962219cf1017ae023b73b.setContent(html_9e7b4fb1ceb56bcf8f7d60f21a1c13b2);
+            
+        
+
+        marker_89d0ca5d9e600ca2dff8894789087287.bindPopup(popup_52f2a3d835a962219cf1017ae023b73b)
+        ;
+
+        
+    
+    
+            var marker_5b072592306123fbdf369cba7d63af00 = L.marker(
+                [-6.237241509760966, 106.89913854391571],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_c18711f67aa53a5bce94516dc2b670db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f20995b71950af29cb69eeb5aed628d = $(`<div id="html_6f20995b71950af29cb69eeb5aed628d" style="width: 100.0%; height: 100.0%;">RS Yadika</div>`)[0];
+                popup_c18711f67aa53a5bce94516dc2b670db.setContent(html_6f20995b71950af29cb69eeb5aed628d);
+            
+        
+
+        marker_5b072592306123fbdf369cba7d63af00.bindPopup(popup_c18711f67aa53a5bce94516dc2b670db)
+        ;
+
+        
+    
+    
+            var marker_4ff6be30393f78dac0e7578139b71c61 = L.marker(
+                [-6.281258766794764, 106.79582462491013],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_b1eb42d8c0395c223b2ed050864c5bba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891bef5ae51615f92be21a77d8610d9c = $(`<div id="html_891bef5ae51615f92be21a77d8610d9c" style="width: 100.0%; height: 100.0%;">Rumah Sakit Setia Mitra</div>`)[0];
+                popup_b1eb42d8c0395c223b2ed050864c5bba.setContent(html_891bef5ae51615f92be21a77d8610d9c);
+            
+        
+
+        marker_4ff6be30393f78dac0e7578139b71c61.bindPopup(popup_b1eb42d8c0395c223b2ed050864c5bba)
+        ;
+
+        
+    
+    
+            var marker_0418d94cfd9ae0de6a44054f40791c88 = L.marker(
+                [-6.209221410017587, 106.84637943093647],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5578c61172143683eb23f8ab09c02064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26150cb8a9bcead087a7736c4842f299 = $(`<div id="html_26150cb8a9bcead087a7736c4842f299" style="width: 100.0%; height: 100.0%;">RS Agung</div>`)[0];
+                popup_5578c61172143683eb23f8ab09c02064.setContent(html_26150cb8a9bcead087a7736c4842f299);
+            
+        
+
+        marker_0418d94cfd9ae0de6a44054f40791c88.bindPopup(popup_5578c61172143683eb23f8ab09c02064)
+        ;
+
+        
+    
+    
+            var marker_d2483b08026ba2e829615f5024a5967c = L.marker(
+                [-6.240120884018215, 106.79330838621794],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_1b605d15eec851ebde2239dccf9072e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3137aa355fec86a8b05e47924e8dae7 = $(`<div id="html_b3137aa355fec86a8b05e47924e8dae7" style="width: 100.0%; height: 100.0%;">RS Pusat Pertamina</div>`)[0];
+                popup_1b605d15eec851ebde2239dccf9072e7.setContent(html_b3137aa355fec86a8b05e47924e8dae7);
+            
+        
+
+        marker_d2483b08026ba2e829615f5024a5967c.bindPopup(popup_1b605d15eec851ebde2239dccf9072e7)
+        ;
+
+        
+    
+    
+            var marker_5e92049a7ad604fbd32cd9b568f18eba = L.marker(
+                [-6.1118251896049225, 106.75300421033548],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_16cabce98c6d1bc4bdd87fd694a2ca66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca275208bac4c2c93c37454d59604eb2 = $(`<div id="html_ca275208bac4c2c93c37454d59604eb2" style="width: 100.0%; height: 100.0%;">RS Pantai Indah Kapuk</div>`)[0];
+                popup_16cabce98c6d1bc4bdd87fd694a2ca66.setContent(html_ca275208bac4c2c93c37454d59604eb2);
+            
+        
+
+        marker_5e92049a7ad604fbd32cd9b568f18eba.bindPopup(popup_16cabce98c6d1bc4bdd87fd694a2ca66)
+        ;
+
+        
+    
+    
+            var marker_4044db646ac6dc5db3e4d2077d68a252 = L.marker(
+                [-6.223747838711994, 106.7599862229023],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_459d3effb645e01a5cc7c51ba4e851c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b36a494adbe72f207d9013648ccfbf25 = $(`<div id="html_b36a494adbe72f207d9013648ccfbf25" style="width: 100.0%; height: 100.0%;">Puskesmas Kecamatan Pesanggrahan</div>`)[0];
+                popup_459d3effb645e01a5cc7c51ba4e851c3.setContent(html_b36a494adbe72f207d9013648ccfbf25);
+            
+        
+
+        marker_4044db646ac6dc5db3e4d2077d68a252.bindPopup(popup_459d3effb645e01a5cc7c51ba4e851c3)
+        ;
+
+        
+    
+    
+            var marker_376114ae1ae3e67a501127c273d987bc = L.marker(
+                [-6.314454272311088, 106.79422073830312],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_2a1bb71876cb9ad30365bfd41811d838 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a26238ec93b9bdaa2c1c692df82a9fe6 = $(`<div id="html_a26238ec93b9bdaa2c1c692df82a9fe6" style="width: 100.0%; height: 100.0%;">RS Prikasih</div>`)[0];
+                popup_2a1bb71876cb9ad30365bfd41811d838.setContent(html_a26238ec93b9bdaa2c1c692df82a9fe6);
+            
+        
+
+        marker_376114ae1ae3e67a501127c273d987bc.bindPopup(popup_2a1bb71876cb9ad30365bfd41811d838)
+        ;
+
+        
+    
+    
+            var marker_c69a10ba436bb04b5e4cb15b0e9c2fc5 = L.marker(
+                [-6.188914363086472, 106.82859497820635],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_34564e4cced2b7e99cf169158b8b2e32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c54cb8ee2e190cf09c6a26c078743e = $(`<div id="html_d7c54cb8ee2e190cf09c6a26c078743e" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_34564e4cced2b7e99cf169158b8b2e32.setContent(html_d7c54cb8ee2e190cf09c6a26c078743e);
+            
+        
+
+        marker_c69a10ba436bb04b5e4cb15b0e9c2fc5.bindPopup(popup_34564e4cced2b7e99cf169158b8b2e32)
+        ;
+
+        
+    
+    
+            var marker_a93e64554632c1b73ef031366491682e = L.marker(
+                [-6.224576937350051, 106.84808513893081],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d9d6603383a43fcf74afae21248e26a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac4cc7f142eb0fda6e68658418632f2f = $(`<div id="html_ac4cc7f142eb0fda6e68658418632f2f" style="width: 100.0%; height: 100.0%;">RSIA Brawijaya Saharjo</div>`)[0];
+                popup_d9d6603383a43fcf74afae21248e26a0.setContent(html_ac4cc7f142eb0fda6e68658418632f2f);
+            
+        
+
+        marker_a93e64554632c1b73ef031366491682e.bindPopup(popup_d9d6603383a43fcf74afae21248e26a0)
+        ;
+
+        
+    
+    
+            var marker_6445677aaa5b11fe2e0f2be01839fa0c = L.marker(
+                [-6.15187283038218, 106.89714834933835],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_a89999db8fbd8fb55a11138f5327646a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deccd63db0e8d48223dc2e8a512386ee = $(`<div id="html_deccd63db0e8d48223dc2e8a512386ee" style="width: 100.0%; height: 100.0%;">Rumah Sakit Mitra Keluarga</div>`)[0];
+                popup_a89999db8fbd8fb55a11138f5327646a.setContent(html_deccd63db0e8d48223dc2e8a512386ee);
+            
+        
+
+        marker_6445677aaa5b11fe2e0f2be01839fa0c.bindPopup(popup_a89999db8fbd8fb55a11138f5327646a)
+        ;
+
+        
+    
+    
+            var marker_1347901e247762001e7ffe5a546729b1 = L.marker(
+                [-6.269582402233911, 106.87067416162081],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_d46ebc931630f3d3bb3d0337d0a2a8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dec69a053015d0c42ea776785e7df7e4 = $(`<div id="html_dec69a053015d0c42ea776785e7df7e4" style="width: 100.0%; height: 100.0%;">Rumah Sakit Bhayangkara TK. IR. Said Sukanto</div>`)[0];
+                popup_d46ebc931630f3d3bb3d0337d0a2a8f6.setContent(html_dec69a053015d0c42ea776785e7df7e4);
+            
+        
+
+        marker_1347901e247762001e7ffe5a546729b1.bindPopup(popup_d46ebc931630f3d3bb3d0337d0a2a8f6)
+        ;
+
+        
+    
+    
+            var marker_a92ce1aece10b34edfcefa8c799ac3e0 = L.marker(
+                [-6.276616372714083, 106.86933085579231],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_e9ec900d8b0a6e5d262dec27c5143857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1daa4b75d61b0a177ffc7121ba22f810 = $(`<div id="html_1daa4b75d61b0a177ffc7121ba22f810" style="width: 100.0%; height: 100.0%;">Rumah Sakit DIK Pusdikkes TNI AD</div>`)[0];
+                popup_e9ec900d8b0a6e5d262dec27c5143857.setContent(html_1daa4b75d61b0a177ffc7121ba22f810);
+            
+        
+
+        marker_a92ce1aece10b34edfcefa8c799ac3e0.bindPopup(popup_e9ec900d8b0a6e5d262dec27c5143857)
+        ;
+
+        
+    
+    
+            var marker_8ba7d85e9f84e9abbaaaf28aa0a6885c = L.marker(
+                [-6.335829136367298, 106.82354806676656],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_15da65dc13fe467f49a6c81a4ea44216 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b729a6e40f819f309d2e694e45e270f1 = $(`<div id="html_b729a6e40f819f309d2e694e45e270f1" style="width: 100.0%; height: 100.0%;">Rumah Sakit Zahirah</div>`)[0];
+                popup_15da65dc13fe467f49a6c81a4ea44216.setContent(html_b729a6e40f819f309d2e694e45e270f1);
+            
+        
+
+        marker_8ba7d85e9f84e9abbaaaf28aa0a6885c.bindPopup(popup_15da65dc13fe467f49a6c81a4ea44216)
+        ;
+
+        
+    
+    
+            var marker_740b192ac996e778b41d1df0966b19c1 = L.marker(
+                [-6.17314123969964, 106.87586971949474],
+                {}
+            ).addTo(map_c59d100f19819b78149b92f521933d3e);
+        
+    
+        var popup_5bfcb53e7c90b3353190ca2a07057b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd755dbb174d157477d7c8767d7036d9 = $(`<div id="html_dd755dbb174d157477d7c8767d7036d9" style="width: 100.0%; height: 100.0%;">Rumah Sakit Pertamina Jaya (RSPJ)</div>`)[0];
+                popup_5bfcb53e7c90b3353190ca2a07057b16.setContent(html_dd755dbb174d157477d7c8767d7036d9);
+            
+        
+
+        marker_740b192ac996e778b41d1df0966b19c1.bindPopup(popup_5bfcb53e7c90b3353190ca2a07057b16)
+        ;
+
+        
+    
+</script>
+</html>
